@@ -1,0 +1,156 @@
+MÓDULO;CAMPO;TITULO;DESCRICAO
+NASCIMENTO;PN_004;Cógido da Serventia (CNS);Campo do banco de dados.  Cógido Nascional da Serventia onde ocorreu o registro, campo normalmente usado em reconhecimento de paternidade.
+NASCIMENTO;PN_005;Acervo;Campo do banco de dados. Retorna o numero do acervo.
+NASCIMENTO;PN_006;Inteiro Teor;Campo do banco de dados. Conteúdo da certidaão de Inteiro Teor..
+NASCIMENTO;PN_101;Número da guia de recolhimento;Campo do banco de dados. Contém o número identificando a Guia que serviu para fazer os recolhimentos de tributos do dia.
+NASCIMENTO;PN_104;Data de registro;Campo do banco de dados. Data na qual lavrou-se o nascimento no cartório.
+NASCIMENTO;PN_105;Número do registro de NASCIMENTO;"Campo do banco de dados. Neste campo é armazenado o número do Termo onde encontra-se lavrado o registro de nascimento."""
+NASCIMENTO;PN_106;Número do livro;Campo do banco de dados. Este campo contém o número do livro usado para a lavratura do registro de nascimento.
+NASCIMENTO;PN_107;Número da página de registro;Campo do banco de dados. Este campo contém o número da página utilizada para lavrar o registro de nascimento.
+NASCIMENTO;PN_108;Registro feito no prazo ?;Campo do banco de dados. Em código: S=sim, N=não, G=registro gratuito ou M=registro feito fora do prazo mas isento de multa.
+NASCIMENTO;PN_109;Declarante(s) do NASCIMENTO;Campo do banco de dados. Identifica declarante: o pai
+NASCIMENTO;PN_110;A rogo (A=da mulher/O=do homem/S=dos dois declarantes);Campo do banco de dados. Quem assina a rogo/procurador, em código: a rogo/procurador da declarante mulher, do declarante homem ou de ambos os declarantes.
+NASCIMENTO;PN_111;Folha (localização);Campo do banco de dados. Localização do registro na folha: em branco, a ou b = frente. Letra v, c ou d representam verso.
+NASCIMENTO;PN_112;Nome do livro (A=nascidos vivos/C AUX=natimortos);Campo do banco de dados. Só pode ser A (de nascidos vivos) ou C AUX, referente a óbitos fetais (natimortos).
+NASCIMENTO;PN_113;Declaração de Nascido Vivo;Campo do banco de dados. Contém o número D.N.V. preenchida na maternidade onde ocorreu o parto.
+NASCIMENTO;PN_114;Número do RG do registrado;Campo do banco de dados. Neste campo é armazenado o número do RG do registrado.
+NASCIMENTO;PN_115;Órgão emissor do RG do registrado;Campo do banco de dados. Neste campo é armazenado o órgão emissor do RG do registrado.
+NASCIMENTO;PN_116;Data de emissão do RG do registrado;Campo do banco de dados. Neste campo é armazenado a data de emissão do RG do registrado.
+NASCIMENTO;PN_121;Nome do 1º declarante;Campo do banco de dados. Nome do declarante no caso de não ser o pai nem a mãe.
+NASCIMENTO;PN_122;Documento apresentado pelo 1º declarante;Campo do banco de dados. Tipo e número do documento apresentado pela testemunha.
+NASCIMENTO;PN_123;Endereço do 1º declarante;Campo do banco de dados. Tipo e nome do logradouro, número e cidade de residência do 1º declarante, caso este não seja um dos pais do registrado.
+NASCIMENTO;PN_131;Nome do 2º declarante;Campo do banco de dados. Nome do declarante no caso de não ser o pai nem a mãe.
+NASCIMENTO;PN_132;Documento apresentado pelo 2º declarante;Campo do banco de dados. Tipo e número do documento apresentado pela testemunha.
+NASCIMENTO;PN_133;Endereço do 2º declarante;Campo do banco de dados. Tipo e nome do logradouro, número e cidade de residência do 2º declarante, caso este não seja um dos pais do registrado.
+NASCIMENTO;PN_141;1ª (ou única) pessoa que assina a rogo/procurador de algum declarante;Campo do banco de dados. Contém o nome da primeira ou única pessoa que está assinando a rogo/procurador de algum dos declarantes.
+NASCIMENTO;PN_142;Idade da 1ª pessoa que assina a rogo/procurador de algum declarante;Campo do banco de dados. Idade da primeira ou única pessoa que assina a rogo/procurador de algum declarante.
+NASCIMENTO;PN_143;Estado civil da 1ª pessoa que assina a rogo/procurador de algum declarante;"Campo do banco de dados. Estado civil em código: 1=solteiro, 2=ca-"",""sado, 3=viúvo, 4=sep/judicialmente, 5=desquitado, 6=divorciado, etc."
+NASCIMENTO;PN_144;Profissão da 1ª pessoa que assina a rogo/procurador de algum declarante;Campo do banco de dados.
+NASCIMENTO;PN_145;Documento apresentado pela 1ª pessoa que assina a rogo/procurador;Campo do banco de dados. Deve conter tipo, número e órgão expedidor.
+NASCIMENTO;PN_146;Endereço da 1ª pessoa que assina a rogo/procurador de algum declarante;Campo do banco de dados. Contém tipo e nome do logradouro, número, etc.
+NASCIMENTO;PN_147;Observação para o rogo/procurador 1;Campo do banco de dados. Observação para o rogo/procurador 1.
+NASCIMENTO;PN_151;Nome da 2ª pessoa que assina a rogo/procurador de algum declarante;Campo do banco de dados. Contém o nome da segunda pessoa que está assinando a rogo/procurador de algum dos declarantes.
+NASCIMENTO;PN_152;Idade da 2ª pessoa que assina a rogo/procurador de algum declarante;Campo do banco de dados. Idade da segunda pessoa que assina a rogo/procurador de algum declarante.
+NASCIMENTO;PN_153;Estado civil da 2ª pessoa que assina a rogo/procurador de algum declarante;"Campo do banco de dados. Estado civil em código: 1=solteiro, 2=ca-"",""sado, 3=viúvo, 4=sep/judicialmente, 5=desquitado, 6=divorciado, etc."
+NASCIMENTO;PN_154;Profissão da 2ª pessoa que assina a rogo/procurador de algum declarante;Campo do banco de dados.
+NASCIMENTO;PN_155;Documento apresentado pela 2ª pessoa que assina a rogo/procurador;Campo do banco de dados. Deve conter tipo, número e órgão expedidor.
+NASCIMENTO;PN_156;Endereço da 2ª pessoa que assina a rogo/procurador de algum declarante;Campo do banco de dados. Contém tipo e nome do logradouro, número, etc.
+NASCIMENTO;PN_157;Observação para o rogo/procurador 2;Campo do banco de dados. Observação para o rogo/procurador 2.
+NASCIMENTO;PN_199;Nome Antigo do Registrado;Campo: Retorna o nome antigo do registrado caso seja um registro de transgênero.
+NASCIMENTO;PN_200;Sexo Antigo do Registrado;Campo: Retorna o sexo antigo do registrado caso seja um registro de transgênero.
+NASCIMENTO;PN_201;Nome do registrando;Campo do banco de dados. Nome da pessoa (geralmente criança) que teve seu registro de nascimento efetuado no cartório.
+NASCIMENTO;PN_202;CPF Registrado;Campo do banco de dados. Contém o número de CPF do registrado.
+NASCIMENTO;PN_203;Grupo sanguíneo;Campo do banco de dados. Retorna o grupo sanguíneo do registrado (Prov. 63/2017).
+NASCIMENTO;PN_204;Sexo do registrando;Campo do banco de dados. Em código: M, F ou I referente a masculino, feminino e ignorado respectivamente.
+NASCIMENTO;PN_205;Cor (em código: 1=branca/2=parda/3=preta/4=amarela/5=indígena/9=ignorada);Campo do banco de dados. Além de ser em código (veja título) não se utiliza devido restrições legais.
+NASCIMENTO;PN_206;Nome do(a) irmão(ã) gêmeo(a);Campo do banco de dados. Deverá estar preenchido se o registrando for gêmeo. Caso de trigêmeos ou mais deve-se usar variáveis adicionais.
+NASCIMENTO;PN_207;Data de NASCIMENTO;Campo do banco de dados. No formato DD-MM-AAAA
+NASCIMENTO;PN_208;Hora de NASCIMENTO;Campo do banco de dados. No formado HH:MM
+NASCIMENTO;PN_209;Cidade de NASCIMENTO;"Campo do banco de dados. Nome da cidade onde o registrando nasceu."""
+NASCIMENTO;PN_210;Sigla do estado onde se localiza a cidade de NASCIMENTO;"Campo do banco de dados. Sigla do estado (com 2 letras) correspondente ao lugar de nascimento do registrando."""
+NASCIMENTO;PN_211;Gênero;"Retorna ""cisgênero"", ""transgênero"" ou ""não binário""."
+NASCIMENTO;PN_212;Estabelecimento de nascimento (hospital ou residência);"Campo do banco de dados. Nome do hospital onde nasceu o registrando. Poderá estar gravado aqui ""em residência"", se for o caso."
+NASCIMENTO;PN_213;Endereço do local de NASCIMENTO;"Campo do banco de dados. Endereço do hospital ou lugar de nascimento do registrando."""
+NASCIMENTO;PN_214;Código do local de nascimento(1=hospital/2=outro estab saúde/3=domicílio);Campo do banco de dados. Código do local de nascimento. Geralmente só usado para estatísticas - não usado nos documentos emitidos.
+NASCIMENTO;PN_216;Código gêmeos (1=não se trata de/2=gêmeos/3=trig/4=quad. ou mais+);Campo do banco de dados. Geralmente usado apenas em estatísticas.
+NASCIMENTO;PN_217;Tipo de Declaração (IBGE);NASCIMENTO => 1) DNV, 2) Sentença Judicial, 3) Adoção, 4) Adoção com segundo registro, 5) RANI ou FUNAI, 6) Testemunhas Descreva a funcionalidade ou melhoria desejada de forma clara e precisa. NATIMORTO => 1) DO, 2) Sentença Judicial, 3) Testemunhas qualificadas, 4) Registro Administrativo da FUNAI, 5) Testemunhas
+NASCIMENTO;PN_218;Naturalidade do registrado é a cidade de residência da mãe? (S/N);Campo do banco de dados. Indica se o registrado terá a naturalidade do município de residência da mãe (S), conforme art. 54, § 4º, da Lei de Registros Públicos, ou se terá a naturalidade do município de nascimento (N).
+NASCIMENTO;PN_230;CEP residencial atualizado;Campo do banco de dados. Retorna o CEP residencial atualizado do registrado (Prov. 63/2017).
+NASCIMENTO;PN_250;UF do primeiro médico;Campo do banco de dados. UF do CRM do médico.
+NASCIMENTO;PN_251;Nome do primeiro médico (que atestou o óbito do natimorto);Campo do banco de dados. Usado somente se natimorto.
+NASCIMENTO;PN_252;Causa da morte;Campo do banco de dados. Usado somente se natimorto.
+NASCIMENTO;PN_257;Tipo Sepultamento;Retorna se o nascido falecido foi sepultado ou cremado.
+NASCIMENTO;PN_258;Local do sepultamento;Campo do banco de dados. Nome do cemitério, usado somente se natimorto.
+NASCIMENTO;PN_259;Endereço do local de sepultamento;Campo do banco de dados. Endereço do cemitério, usado somente se natimorto.
+NASCIMENTO;PN_261;Código da causa da morte (1=natural/3=homicídio/4=acidente);Campo do banco de dados. Usado somente em estatísticas e no caso de tratar-se de registro de natimorto.
+NASCIMENTO;PN_262;Tempo de gestação (1= menos de 20 semanas/2=20 a 27semanas/3=28 ou mais semanas);Campo do banco de dados. Usado somente se natimorto. Geralmente não utilizado em documentos por tratar-se de código.
+NASCIMENTO;PN_277;Origem do dados;Campo do banco de dados. Origem do dados
+NASCIMENTO;PN_299;Data da sentença judicial;Campo do banco de dados. Neste campo é armazenado a ata da sentença judicial.
+NASCIMENTO;PN_300;Nº do protocolo;Campo do banco de dados. Neste campo é armazenado o número do protocolo.
+NASCIMENTO;PN_301;Nome do pai do registrando;Campo do banco de dados. Caso paternidade estabelecida, estará preenchido.
+NASCIMENTO;PN_302;CPF Pai do Registrado;Campo do banco de dados. Contém o número de CPF do pai do registrado.
+NASCIMENTO;PN_303;Profissão do pai;Campo do banco de dados.
+NASCIMENTO;PN_304;Idade do pai;"Campo do banco de dados. Numérico, não contém a inscrição ""anos""."
+NASCIMENTO;PN_305;Cidade de nascimento do pai;Campo do banco de dados. Cidade onde o pai do registrando nasceu.
+NASCIMENTO;PN_306;Sigla do estado de nascimento do pai;Campo do banco de dados. Sigla do Estado, com 2 letras, onde nasceu o pai do registrando.
+NASCIMENTO;PN_307;Nome do avô paterno;Campo do banco de dados.
+NASCIMENTO;PN_308;Nome da avó paterna;Campo do banco de dados.
+NASCIMENTO;PN_309;País de nascimento do pai;Campo do banco de dados. Contém o nome do país do pai do(a) registrado(a) caso o mesmo tenha nascido fora do Brasil(estrangeiro).
+NASCIMENTO;PN_310;Nacionalidade do pai;Campo do banco de dados.
+NASCIMENTO;PN_311;Estado civil do pai;Campo do banco de dados. Em código: 1=solteiro, 2=casado, 3=viúvo, 4=sep/judicialmente, 5=desquitado, 6=divorciado.
+NASCIMENTO;PN_312;Documento apresentado pelo pai;Campo do banco de dados. Tipo e número do documento apresentado pelo pai do registrando.
+NASCIMENTO;PN_313;Grau de instrução do pai (1=analf/2=1ºg incompl/3=1ºg compl/etc.);Campo do banco de dados. Em código, geralmente esta informação só é usada em estatísticas.
+NASCIMENTO;PN_314;Cidade de residencia do pai;Campo do banco de dados. Geralmente esta informação é usada somente em estatísticas.
+NASCIMENTO;PN_315;Sigla do estado de residencia do pai;Campo do banco de dados. Sigla do Estado, com 2 letras. Geralmente esta informação só é utilizada para estatísticas.
+NASCIMENTO;PN_316;País de residência do pai;Campo do banco de dados. Contém o nome do país de residência do pai caso o mesmo resida fora do país.
+NASCIMENTO;PN_317;Telefone do Pai;Retorna o número de telefone do pai do registrado.
+NASCIMENTO;PN_318;Data de nascimento do pai;Campo do banco de dados. Data de nascimento do pai.
+NASCIMENTO;PN_319;UF do sepultamento;Retorna a sigla da UF do sepultamento.(natimorto)
+NASCIMENTO;PN_320;Município do sepultamento;Retorna a município do sepultamento
+NASCIMENTO;PN_321;Nome da mãe do registrando;Campo do banco de dados. Caso maternidade estabelecida, estará preenchido.
+NASCIMENTO;PN_322;CPF Mãe do Registrado;Campo do banco de dados. Contém o número de CPF da mãe do registrado.
+NASCIMENTO;PN_323;Profissão da mãe;Campo do banco de dados.
+NASCIMENTO;PN_324;Idade da mãe;"Campo do banco de dados. Numérico, não contém a inscrição ""anos""."
+NASCIMENTO;PN_325;Cidade de nascimento da mãe;Campo do banco de dados. Cidade onde a mãe do registrando nasceu.
+NASCIMENTO;PN_326;Sigla do estado de nascimento da mãe;Campo do banco de dados. Sigla do Estado, com 2 letras, onde nasceu a mãe do registrando.
+NASCIMENTO;PN_327;Nome do avô materno;Campo do banco de dados.
+NASCIMENTO;PN_328;Nome da avó materna;Campo do banco de dados.
+NASCIMENTO;PN_330;Nacionalidade da mãe;Campo do banco de dados.
+NASCIMENTO;PN_331;Estado civil da mãe;Campo do banco de dados. Em código: 1=solteira, 2=casada, 3=viúva, 4=sep/judicialmente, 5=desquitada, 6=divorciada.
+NASCIMENTO;PN_332;Documento apresentado pela mãe;Campo do banco de dados. Tipo e número do documento apresentado pela mãe do registrando.
+NASCIMENTO;PN_333;Grau de instrução da mãe (1=analf/2=1ºg incompl/3=1ºg compl/etc);Campo do banco de dados. Em código, geralmente esta informação só é usada em estatísticas.
+NASCIMENTO;PN_334;Cidade onde residia a mãe na ocasião do parto;Campo do banco de dados. Geralmente esta informação é usada somente em estatísticas.
+NASCIMENTO;PN_335;Sigla do estado onde residia a mãe na ocasião do parto;Campo do banco de dados. Sigla do Estado, com 2 letras. Geralmente esta informação só é utilizada para estatísticas.
+NASCIMENTO;PN_336;País onde residia a mãe na ocasião do parto;Campo do banco de dados. Geralmente esta informação é usada somente nas estatísticas.
+NASCIMENTO;PN_337;Telefone da Mãe;Retorna o número de telefone da mãe do registrado.
+NASCIMENTO;PN_338;Data de nascimento da mãe;Campo do banco de dados. Data de nascimento da mãe.
+NASCIMENTO;PN_341;Dados complementares dos pais;Campo do banco de dados. Campo geralmente usado para informar dados sobre casamento dos pais. Desusado, vide Lei 8.560 art 5º.
+NASCIMENTO;PN_342;É trans;Retorna o valor de SIM caso o campo (É trans) estiver marcado. Caso não marcado retorna como NÃO
+NASCIMENTO;PN_343;Mudou nome;Retorna o valor de SIM caso o campo (Mudou nome) estiver marcado. Caso não marcado retorna como NÃO
+NASCIMENTO;PN_370;Motivo do cancelamento do registro;Campo do banco de dados. Motivo do cancelamento do registro
+NASCIMENTO;PN_401;Nome da 1ª testemunha;Campo do banco de dados. Nome da 1º testemunha do ato do registro de nascimento.
+NASCIMENTO;PN_402;Idade da 1ª testemunha;"Campo do banco de dados. Campo numérico, sem a inscrição ""anos""."
+NASCIMENTO;PN_403;Estado civil da 1ª testemunha;Campo do banco de dados. Em código.
+NASCIMENTO;PN_404;Profissão da 1ª testemunha;Campo do banco de dados.
+NASCIMENTO;PN_405;Documento apresentado pela 1ª testemunha;Campo do banco de dados. Tipo e número do documento apresentado pela 1ª testemunha.
+NASCIMENTO;PN_406;Endereço da 1ª testemunha;Campo do banco de dados. Endereço de residência.
+NASCIMENTO;PN_407;Nacionalidade da 1Âª testemunha;Campo do banco de dados. Nacionalidade da primeira testemunha.
+NASCIMENTO;PN_408;Data de nascimento da 1.Âª testemunha;Campo do banco de dados. Armazena a data de nascimento da primeira testemunha.
+NASCIMENTO;PN_409;CPF da 1Âª testemunha;Campo do banco de dados. Armazena o CPF da primeira testemunha.
+NASCIMENTO;PN_411;Nome da 2ª testemunha;Campo do banco de dados. Nome da 2º testemunha do ato de registro de nascimento.
+NASCIMENTO;PN_412;Idade da 2ª testemunha;"Campo do banco de dados. Campo numérico, sem a inscrição ""anos""."
+NASCIMENTO;PN_413;Estado civil da 2ª testemunha;Campo do banco de dados. Em código.
+NASCIMENTO;PN_414;Profissão da 2ª testemunha;Campo do banco de dados.
+NASCIMENTO;PN_415;Documento apresentado pela 2ª testemunha;Campo do banco de dados. Tipo e número do documento apresentado pela 2ª testemunha.
+NASCIMENTO;PN_416;Endereço da 2ª testemunha;Campo do banco de dados. Endereço de residência.
+NASCIMENTO;PN_417;Nacionalidade da 2Âª testemunha;Campo do banco de dados. Nacionalidade da segunda testemunha.
+NASCIMENTO;PN_418;Data de nascimento da 2.Âª testemunha;Campo do banco de dados. Armazena a data de nascimento da segunda testemunha.
+NASCIMENTO;PN_419;CPF da 2Âª testemunha;Campo do banco de dados. Armazena o CPF da segunda testemunha.
+NASCIMENTO;PN_421;Mandado judicial;Campo do banco de dados. Texto do Mandado Judicial ou Petição Judicial Despachada, autorizando o registro de nascimento.
+NASCIMENTO;PN_450;Peso da criança ao nascer (em gramas);Campo do banco de dados. Recomendada sua digitação apenas pela Fundação SEADE, órgão de estatística do Estado de São Paulo.
+NASCIMENTO;PN_451;Nº da sentença/mandato;Campo do banco de dados. Neste campo é armazenado o número da sentença/mandato.
+NASCIMENTO;PN_454;Tipo do parto, em código (1=espontâneo/2=operatório/3=fórceps/4=outro);Campo do banco de dados. Recomendada sua digitação apenas pela Fundação SEADE, órgão de estatística do Estado de São Paulo.
+NASCIMENTO;PN_460;Tipo de logradouro referente ao endereço da mãe;Campo do banco de dados. Recomendada sua digitação apenas pela Fundação SEADE, órgão de estatística do Estado de São Paulo.
+NASCIMENTO;PN_461;Nome do logradouro referente ao endereço da mãe;Campo do banco de dados. Recomendada sua digitação apenas pela Fundação SEADE, órgão de estatística do Estado de São Paulo.
+NASCIMENTO;PN_462;Número do logradouro referente ao endereço da mãe;Campo do banco de dados. Recomendada sua digitação apenas pela Fundação SEADE, órgão de estatística do Estado de São Paulo.
+NASCIMENTO;PN_463;Complemento do logradouro referente ao endereço da mãe;Campo do banco de dados. Recomendada sua digitação apenas pela Fundação SEADE, órgão de estatística do Estado de São Paulo.
+NASCIMENTO;PN_464;Bairro referente ao endereço habitual da mãe;Campo do banco de dados. Recomendada sua digitação apenas pela Fundação SEADE, órgão de estatística do Estado de São Paulo.
+NASCIMENTO;PN_465;CEP do endereço da mãe;Campo do banco de dados. Recomendada sua digitação apenas pela Fundação SEADE, órgão de estatística do Estado de São Paulo.
+NASCIMENTO;PN_468;País de nascimento da mãe;Campo do banco de dados. Contém o nome do país da mãe do(a) registrado(a) caso a mesma tenha nascido fora do Brasil (estrangeira).
+NASCIMENTO;PN_469;Nome da Serventia;Campo do banco de dados. Nome da serventia onde ocorreu o registro, campo normalmente usado em reconhecimento de paternidade.
+NASCIMENTO;PN_470;UF da Serventia;Campo do banco de dados. UF da serventia onde ocorreu o registro, campo normalmente usado em reconhecimento de paternidade.
+NASCIMENTO;PN_474;Número do CRM do primeiro médico que atestou o óbito (caso natimorto);Campo do banco de dados. Número de registro no CRM do médico que atestou o óbito fetal.
+NASCIMENTO;PN_475;Nome do segundo médico (que atestou o óbito do natimorto);Campo do banco de dados. Usado somente se natimorto.
+NASCIMENTO;PN_476;Número do CRM do segundo médico que atestou o óbito (caso natimorto);Campo do banco de dados. Número de registro no CRM do segundo médico que atestou o óbito fetal.
+NASCIMENTO;PN_477;UF do segundo médico;Campo do banco de dados. UF do CRM do segundo médico.
+NASCIMENTO;PN_478;Protocolo de consulta da DNV/DO;Campo: Retorna a o número do protocolo de consulta da DNV/DO.
+NASCIMENTO;PN_480;Tipo de logradouro referente ao endereço do pai;Campo do banco de dados. Tipo de logradouro referente ao endereço do pai.
+NASCIMENTO;PN_481;Nome do logradouro referente ao endereço do pai;Campo do banco de dados. Recomendada sua digitação apenas pela Fundação SEADE, órgão de estatística do Estado de São Paulo.
+NASCIMENTO;PN_482;Número do logradouro referente ao endereço do pai;Campo do banco de dados. Recomendada sua digitação apenas pela Fundação SEADE, órgão de estatística do Estado de São Paulo.
+NASCIMENTO;PN_483;Complemento do logradouro referente ao endereço do pai;Campo do banco de dados. Recomendada sua digitação apenas pela Fundação SEADE, órgão de estatística do Estado de São Paulo.
+NASCIMENTO;PN_484;Bairro referente ao endereço habitual do pai;Campo do banco de dados. Recomendada sua digitação apenas pela Fundação SEADE, órgão de estatística do Estado de São Paulo.
+NASCIMENTO;PN_485;CEP do endereço do pai;Campo do banco de dados. Recomendada sua digitação apenas pela Fundação SEADE, órgão de estatística do Estado de São Paulo.
+NASCIMENTO;PN_486;Município de NASCIMENTO;Campo do banco de dados. Retorna o nome do município de nascimento de um registro
+NASCIMENTO;PN_487;Sigla de Estado de NASCIMENTO;Campo do banco de dados. Retorna a sigla de um estado de nascimento de um registro.
+NASCIMENTO;PN_497;Data da Averbação;Campo do banco de dados. Indica a Data da Averbação.
+NASCIMENTO;PN_498;Status do Registro;Campo do banco de dados. Indica o Status do Registro, C -> Cancelado, R -> Retificado, Em branco -> Normal.

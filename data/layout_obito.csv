@@ -1,0 +1,189 @@
+MÓDULO;CAMPO;TITULO;DESCRICAO
+OBITO;PO_003;Observações;Campo do banco de dados. Exemplo: deixou filhos, bens, etc.
+OBITO;PO_005;Acervo;Campo do banco de dados. Retorna o numero do acervo.
+OBITO;PO_006;Inteiro Teor;Campo do banco de dados. Conteúdo da certidaão de Inteiro Teor..
+OBITO;PO_100;Nome do livro;Campo do banco de dados. Este campo contém o nome do livro usado para a lavratura do registro de óbito.
+OBITO;PO_101;Data do registro;Campo do banco de dados. Data no qual foi lavrado o assento de óbito, formato DD-MM-AAAA.
+OBITO;PO_102;Declaração de Óbito;Campo do banco de dados. Número da declaração fornecida pelo Serviço Funerário
+OBITO;PO_103;Nº do registro do óbito;Campo do banco de dados. Número do termo no qual foi lavrado o assento de óbito.
+OBITO;PO_104;Nº da folha;Campo do banco de dados. Número da folha na qual foi lavrado o assento de óbito.
+OBITO;PO_105;Nº do livro;Campo do banco de dados. Número do livro (C) no qual encontra-se o assento de óbito.
+OBITO;PO_106;Local do sepultamento;Campo do banco de dados. Nome do cemitério no qual vai ser ou encontra-se sepultado o falecido.
+OBITO;PO_107;Código conforme o fato do falecido ser sepultado ou cremado;Campo do banco de dados.
+OBITO;PO_108;Nome do 2º médico que atestou o óbito.;Campo do banco de dados.
+OBITO;PO_109;Nº do CRM do 2º médico que atestou o óbito.;Campo do banco de dados.
+OBITO;PO_110;UF do segundo médico;Campo do banco de dados. UF do CRM do segundo médico.
+OBITO;PO_111;Nº do processo;Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP..
+OBITO;PO_112;Data da sentença judicial;Campo do banco de dados. Neste campo é armazenado a ata da sentença judicial.
+OBITO;PO_121;Folha (localização);Campo do banco de dados. Indica se o assento foi feito na frente ou no verso da folha. Em código: espaço/a/b=frente, v/c/d=verso
+OBITO;PO_122;Nº da Guia de recolhimento;Campo do banco de dados. Número da guia utilizada para o recolhimento dos tributos.
+OBITO;PO_140;Motivo assinatura a rogo;Campo do banco de dados. Retorna analfabeto ou impossibilitado de assinar.
+OBITO;PO_141;Nome do assinante a rogo;Campo do banco de dados
+OBITO;PO_142;Idade do assinante a rogo;Campo do banco de dados.
+OBITO;PO_143;Estado civil do assinante a rogo;Campo do banco de dados.
+OBITO;PO_144;Profissão do assinante a rogo;Campo do banco de dados.
+OBITO;PO_145;Documento do assinante a rogo;Campo do banco de dados.
+OBITO;PO_146;Endereço do assinante a rogo;Campo do banco de dados.
+OBITO;PO_147;Sexo do assinante a rogo;Campo do banco de dados.
+OBITO;PO_148;Nacionalidade do assinante a rogo;Campo do banco de dados.
+OBITO;PO_149;Observação para o rogo/procurador 1;Campo do banco de dados. Observação para o rogo/procurador 1.
+OBITO;PO_160;Nome da 1ª testemunha;Campo do banco de dados.
+OBITO;PO_161;Estado civil da 1ª testemunha;Campo do banco de dados.
+OBITO;PO_162;Data de nascimento da 1ª testemunha;Campo do banco de dados.
+OBITO;PO_163;Idade da 1ª testemunha;Campo do banco de dados.
+OBITO;PO_164;CPF da 1ª testemunha;Campo do banco de dados.
+OBITO;PO_165;Documento da 1ª testemunha;Campo do banco de dados.
+OBITO;PO_166;Profissão da 1ª testemunha;Campo do banco de dados.
+OBITO;PO_167;Nacionalidade da 1ª testemunha;Campo do banco de dados.
+OBITO;PO_168;Endereço da 1ª testemunha;Campo do banco de dados.
+OBITO;PO_170;Nome da 2ª testemunha;Campo do banco de dados.
+OBITO;PO_171;Estado civil da 2ª testemunha;Campo do banco de dados.
+OBITO;PO_172;Data de nascimento da 2ª testemunha;Campo do banco de dados.
+OBITO;PO_173;Idade da 2ª testemunha;Campo do banco de dados.
+OBITO;PO_174;CPF da 2ª testemunha;Campo do banco de dados.
+OBITO;PO_175;Documento da 2ª testemunha;Campo do banco de dados.
+OBITO;PO_176;Profissão da 2ª testemunha;Campo do banco de dados.
+OBITO;PO_177;Nacionalidade da 2ª testemunha;Campo do banco de dados.
+OBITO;PO_178;Endereço da 2ª testemunha;Campo do banco de dados.
+OBITO;PO_180;Grau de relacionamento do declarante com o falecido;Campo do banco de dados.
+OBITO;PO_181;Mandado/petição?;Campo do banco de dados. Retorna sim ou não.
+OBITO;PO_190;Texto livre do mandado/petição;Campo do banco de dados.
+OBITO;PO_194;Retorna o nome e a idade dos filhos;Retorna o nome e a idade dos filhos, caso existam.
+OBITO;PO_201;Nome do declarante;Campo do banco de dados. Nome da pessoa que declarou o óbito para o Oficial do cartório.
+OBITO;PO_203;Profissão do declarante;Campo do banco de dados.
+OBITO;PO_204;Estado civil do declarante (em código);Campo do banco de dados. 1: solteiro, 2: casado, 3: viúvo, 4: separado judicialmente, 6: divorciado, 7: desquitado ou 9: ignorado
+OBITO;PO_205;Documento apresentado pelo declarante;Campo do banco de dados. Número e tipo do documento apresentado pelo declarante.
+OBITO;PO_206;Nacionalidade do declarante;"Campo do banco de dados. Geralmente ""brasileira""."
+OBITO;PO_207;Endereço de residência do declarante;Campo do banco de dados. Tipo e nome do logradouro, número, etc.
+OBITO;PO_208;Sexo do declarante;Campo do banco de dados. M=masculino ou F=feminino.
+OBITO;PO_209;União Estável;Campo do banco de dados. Indica se o falecido estava em uma união estável. Retorna S ou N.
+OBITO;PO_210;CPF do declarante;Campo do banco de dados. Número do CPF do declarante.
+OBITO;PO_211;Telefone do declarante;Campo do banco de dados. Número do telefone do declarante.
+OBITO;PO_212;Tipo de documento do declarante;Campo do banco de dados. Tipo do documento do documento informado. Ex: RG, carteira de trabalho, etc.
+OBITO;PO_249;Nº DNV (decl nasc vivo ref óbito de menor de 1 ano);Campo de banco de dados. Número da DNV digitado na tela de DadosComplementares de Estatística, para óbitos de menores de 1 ano.
+OBITO;PO_250;Tipo logradouro do endereço do(a) falecido(a);Campo do banco de dados. Somente a Fundação SEADE (órgão de estatística do Estado de SP) necessita desta informação.
+OBITO;PO_251;Nome logradouro do endereço do(a) falecido(a);Campo do banco de dados. Somente a Fundação SEADE (órgão de estatística do Estado de SP) necessita desta informação.
+OBITO;PO_252;Nº logradouro do endereço do(a) falecido(a);Campo do banco de dados. Somente a Fundação SEADE (órgão de estatística do Estado de SP) necessita desta informação.
+OBITO;PO_253;Complemento do endereço do(a) falecido(a);Campo do banco de dados. Somente a Fundação SEADE (órgão de estatística do Estado de SP) necessita desta informação.
+OBITO;PO_254;Bairro do endereço do(a) falecido(a);Campo do banco de dados. Somente a Fundação SEADE (órgão de estatística do Estado de SP) necessita desta informação.
+OBITO;PO_255;CEP do endereço do(a) falecido(a);Campo do banco de dados. Somente a Fundação SEADE (órgão de estatística do Estado de SP) necessita desta informação.
+OBITO;PO_256;Grau de instrução (1=analf/2=1º grau/3=2º grau/4=Superior);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_257;Recebeu assistência médica ? (S=sim/N=não);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_258;Atendido pelo médico que assina ? (resposta em código);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_259;Confirmado por exame complementar ? (S=sim/N=não);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_260;Morte em cirurgia ? (S=sim/N=não);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_261;Necropsia ? (S=sim/N=não);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_262;Tipo do acidente (1=homicídio/2=suicídio/3=acidente);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP. Veja campo 311.
+OBITO;PO_263;Acidente de trabalho ? (S=sim/N=não);Campo do banco de dados. Caiu em desuso. Utilizava-se paraestatística apenas nos cartórios de SP.
+OBITO;PO_264;Local do acidente (1=trânsito/2=domicílio/3=outro);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_265;CRM do médico;Campo do banco de dados. Somente a Fundação SEADE (órgão de estatística do Estado de SP) necessita desta informação.
+OBITO;PO_266;Ocupação da mãe do(a) falecido(a);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_267;Grau de instrução da mãe do(a) falecido(a);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_268;Idade da mãe do(a) falecido(a);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_269;Filhos nascidos vivos tidos pela mãe do(a) falecido(a);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_270;Filhos nascidos mortos tidos pela mãe do(a) falecido(a);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_271;Tipo da gravidez (1=única/2=dupla/3=tripla/4=mais de 3);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_272;Duracao da gravidez (1=menos de 20/2=20a27/28ou+ semanas);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_273;Tipo do parto (1=espontâneo/2=operatório/3=fórceps);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_274;Peso ao nascer em gramas do(a) falecido(a);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_275;Ocupação do pai do(a) falecido(a);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_276;Grau de instrução do pai do(a) falecido(a);Campo do banco de dados. Caiu em desuso. Utilizava-se para estatística apenas nos cartórios de SP.
+OBITO;PO_277;Origem do dados;Campo do banco de dados. Origem do dados
+OBITO;PO_300;UF do primeiro médico;Campo do banco de dados. UF do CRM do primeiro médico.
+OBITO;PO_301;Nome do médico;Campo do banco de dados. Nome do médico que assinou o atestado de óbito.
+OBITO;PO_302;Causa da morte;Campo do banco de dados. Conforme consta da Declaração de óbito.
+OBITO;PO_306;Data do óbito;Campo do banco de dados. Data de ocorrência do falecimento.
+OBITO;PO_307;Horário do óbito;Campo do banco de dados. Hora em que ocorreu o falecimento, formato HH:MM.
+OBITO;PO_308;Local do falecimento;Campo do banco de dados. Nome do hospital (ou local) onde ocorreu o falecimento.
+OBITO;PO_309;Endereço do local do falecimento;Campo do banco de dados. Endereço do local de falecimento.
+OBITO;PO_310;Tipo do local (1=hospital/2=via públ/3=domicílio);Campo do banco de dados. Usado somente para estatísticas.
+OBITO;PO_311;Código da causa (1=natural/2=suicídio/3=homicídio/4=acid.);Campo do banco de dados. Usado somente para estatísticas.
+OBITO;PO_314;Município de Falecimento;Campo do banco de dados. Neste campo é armazenado o Município de Falecimento.
+OBITO;PO_315;UF do Município de Falecimento;Campo do banco de dados. Neste campo é armazenado a UF do Município de Falecimento.
+OBITO;PO_316;Município de sepultamento;Campo: Retorna o município que foi realizado o sepultamento.
+OBITO;PO_317;UF de sepultamento;Campo: Retorna a UF que foi realizado o sepultamento.
+OBITO;PO_318;Protocolo de consulta da DO;Campo: Retorna a o número do protocolo de consulta da DO.
+OBITO;PO_319;Endereço do local de sepultamento/cremação;Campo: Retorna a o endereço do local de sepultamento/cremação.
+OBITO;PO_350;Nº do protocolo;Campo do banco de dados. Neste campo é armazenado o número do protocolo.
+OBITO;PO_370;Motivo do cancelamento do registro;Campo do banco de dados. Motivo do cancelamento do registro
+OBITO;PO_401;Nome do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_403;Sexo do(a) falecido(a);Campo do banco de dados. M=masculino, F=feminino ou I=ignorado
+OBITO;PO_404;Etnia/Cor do(a) falecido(a);Campo do banco de dados. Em código: 1: branca, 2: parda, 3: preta, 4: amarela, 5: indígena, 9: ignorada.
+OBITO;PO_405;Profissão do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_406;Cidade de nascimento do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_407;Falecido(a) deixa bens ?;Campo do banco de dados. S=sim, N=Não ou I=Ignorado.
+OBITO;PO_408;Data de nascimento do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_409;Endereço de residência do(a) falecido(a);Campo do banco de dados. Tipo e nome do logradouro, número, etc.
+OBITO;PO_410;Estado civil do(a) falecido(a);Campo do banco de dados. 1: solteiro, 2: casado, 3: viúvo, 4: separado judicialmente, 5: união consensual, 6: desquitado, 7: divorciado e 9: ignorado.
+OBITO;PO_411;Complemento do estado civil;"Campo do banco de dados. Geralmente digita-se aqui o nome do cônjuge se não for solteiro. Ex: ""...de Maria das Graças"""
+OBITO;PO_414;Grupo sanguíneo;Campo do banco de dados. Retorna o grupo sanguíneo do falecido (Prov. 63/2017).
+OBITO;PO_415;Nacionalidade do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_416;Cidade de casamento do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_417;Nome do pai do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_418;Complemento ref pai do(a) falecido(a);Campo do banco de dados. Alguma informação a mais sobre o paido(a) falecido(a).
+OBITO;PO_419;Nome da mãe do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_420;Complemento ref a mãe do(a) falecido(a);Campo do banco de dados. Alguma informação a mais sobre a mãedo(a) falecido(a).
+OBITO;PO_421;Sigla do estado da cidade de nascimento do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_422;Sigla do estado da cidade do casamento do(a) falecido(a);Campo do banco de dados. Caso seja casado ou viúvo.
+OBITO;PO_423;Reservista ? (S=sim/N=não/I=ignorado);Campo do banco de dados. Serve apenas para controlar a Relação para Ministério do Exército, quase nunca utilizado em documentos.
+OBITO;PO_424;Nº da carteira de reservista do(a) falecido(a);Campo do banco de dados. Ser apenas para controlar a Relação para Ministério do Exército, quase nunca utilizado em documentos.
+OBITO;PO_425;Complemento ref pai e mãe do(a) falecido(a);Campo do banco de dados. Alguma informação a mais sobre os pais do(a) falecido(a).
+OBITO;PO_428;Falecido(a) é eleitor(a)? (S=sim/N=não/I=ignorado);Campo do banco de dados. Serve apenas para controlar a Relação para Justiça Eleitoral, quase nunca utilizado em documentos.
+OBITO;PO_429;Cidade de residência do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_430;Sigla do estado da cidade de residência do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_431;Idade do(a) falecido(a) - parte 1 (quantidade);Campo do banco de dados. Quantidade de anos, meses, dias ou horas que o(a) falecido(a) viveu.
+OBITO;PO_432;Idade do(a) falecido(a) - parte 1 (código);Campo do banco de dados. Em código: a=anos, m=meses, d=dias ou h=horas.
+OBITO;PO_433;Idade do(a) falecido(a) - parte 2 (quantidade);Campo do banco de dados. Quantidade de meses, dias, horas ou minu-tos que o(a) falecido(a) viveu além do informado no campo 431.
+OBITO;PO_434;Idade do(a) falecido(a) - parte 2 (código);Campo do banco de dados. Em código: m=meses/minutos, d=dias ou h=horas.
+OBITO;PO_435;Nº da zona eleitoral, caso falecido(a) seja eleitor(a).;Campo do banco de dados. Este campo normalmente só é utilizado na impressão da Relação dos óbitos para Justiça Eleitoral.
+OBITO;PO_436;CPF do(a) falecido(a);Campo do banco de dados. Utilizado no Relatório para INSS. Pouco utilizado para constar de documentos tipo certidão ou termo.
+OBITO;PO_437;Localização da folha do registro de casamento do(a) falecido(a);Campo do banco de dados
+OBITO;PO_438;País de residência do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_439;País de nascimento do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_440;Cidade onde se registrou o nascimento do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_441;Subdistrito da cidade de registro de nasc.do(a) falecido(a).;Campo do banco de dados. Caso não se trate de município dividido em subdistritos, está zero.
+OBITO;PO_442;Sigla do estado de registro do(a) falecido(a);Campo do banco de dados. Em código, com 2 letras.
+OBITO;PO_443;Nº do livro do registro de nascimento.;Campo do banco de dados. Número do livro onde foi registrado o nascimento do(a) falecido(a).
+OBITO;PO_444;Nº da folha do registro de nascimento.;Campo do banco de dados. Número da folha onde encontra-se o assento de nascimento do(a) falecido(a).
+OBITO;PO_445;Folha (localização/registro de nascimento);Campo do banco de dados. Em código: espaço/a/b=frente ou v/c/d=verso. Relativo ao registro de nascimento do(a) falecido(a).
+OBITO;PO_446;Nº do registro de NASCIMENTO;"Campo do banco de dados. Número do termo no qual encontra-se o assento de nascimento do(a) falecido(a)."""
+OBITO;PO_447;N° subdistrito de casamento do(a) falecido(a).;Campo do banco de dados. Caso a município onde o(a) falecido(a) registrou seu casamento seja assim subdividido.
+OBITO;PO_448;Nº do livro do registro de casamento do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_449;Nº da folha do registro de casamento do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_450;Nº do registro de casamento do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_451;Nº da inscrição (título de eleitor);Campo do banco de dados. Este campo normalmente só é utilizado naimpressão da Relação dos óbitos para Justiça Eleitoral.
+OBITO;PO_452;Nº da seção eleitoral, caso falecido(a) seja eleitor(a);Campo do banco de dados. Este campo normalmente só é utilizado na impressão da Relação dos óbitos para Justiça Eleitoral.
+OBITO;PO_453;Número da identidade do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_454;Orgão emissor da identidade do(a) falecido(a);Campo do banco de dados. Em código. Exemplo: 1=Secretaria de Seg.Pública, 2=Ministério da Aeronáutica, etc.
+OBITO;PO_455;UF da identidade do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_456;Número da CTPS do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_457;Série da CTPS do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_458;UF da CTPS do(a) falecido(a);Campo do banco de dados.
+OBITO;PO_459;Número de Identificação do Trabalhador do(a) falecido(a);Campo do banco de dados. Aqui deve estar informado o número do PIS/PASEP ou nº de Contribuinte Individual do(a) falecido(a)
+OBITO;PO_460;Data de expedição da identidade do(a) falecido(a);Campo do banco de dados. Data de expedição da identidade.
+OBITO;PO_461;Nº do benefício do INSS (1);Campo do banco de dados. Usado para Relação para INSS.
+OBITO;PO_462;Nº do benefício do INSS (2);Campo do banco de dados. Usado para Relação para INSS.
+OBITO;PO_463;Nº do benefício do INSS (3);Campo do banco de dados. Usado para Relação para INSS.
+OBITO;PO_464;Identificação do livro do registro de nascimento.;Campo do banco de dados. Nome do livro onde foi registrado o nascimento do(a) falecido(a).
+OBITO;PO_465;Identificação do livro do registro de casamento.;Campo do banco de dados. Nome do livro onde foi registrado o casamento do(a) falecido(a).
+OBITO;PO_466;Falecido(a) deixa testamento ?;Campo do banco de dados. S=sim, N=Não ou I=Ignorado.
+OBITO;PO_467;Falecido(a) deixa filhos maiores ?;Campo do banco de dados. S=sim, N=Não ou I=Ignorado.
+OBITO;PO_468;Qtde de filhos maiores deixados pelo(a) falecido(a);Campo do banco de dados.
+OBITO;PO_469;Falecido(a) deixa filhos menores ?;Campo do banco de dados. S=sim, N=Não ou I=Ignorado.
+OBITO;PO_470;Qtde de filhos menores deixados pelo(a) falecido(a);Campo do banco de dados.
+OBITO;PO_475;Número do termo da união estável;Campo: Retorna o termo do registro da união estável do falecido.
+OBITO;PO_476;Nome do livro da união estável;Campo: Retorna o nome do livro do registro da união estável do falecido.
+OBITO;PO_477;Número do livro da união estável;Campo: Retorna o número do livro do registro da união estável do falecido.
+OBITO;PO_478;Número da página da união estável;Campo: Retorna o número da página do registro da união estável do falecido.
+OBITO;PO_479;Localização na página da união estável;Campo: Retorna a localização na folha do registro da união estável do falecido.
+OBITO;PO_480;Data do registro da união estável;Campo: Retorna a data do registro da união estável do falecido.
+OBITO;PO_481;Cidade do registro da união estável;Campo: Retorna a cidade onde foi realizado o registro da união estável do falecido.
+OBITO;PO_482;UF do registro da união estável;Campo: Retorna a UF onde foi realizado o registro da união estável do falecido.
+OBITO;PO_483;Subdistrito do registro da união estável;Campo: Retorna o número do sub distrito da UF onde foi realizado o registro da união estável do falecido.
+OBITO;PO_484;Nome do convivente - União Estável;Campo: Retorna o nome do convivente do falecido, quando tiver união estável
+OBITO;PO_485;Complemento da União Estável;Campo: Retorna o complemento da união estável
+OBITO;PO_486;Nome do/a cônjuge do/a falecido/a;Campo do banco de dados.
+OBITO;PO_487;Data de casamento do/a cônjuge do/a falecido/a;Campo do banco de dados.
+OBITO;PO_488;Descrição do Órgão Emissor;"Função especial. Retorna o a descrição do órgão emissor do falecido, quando o mesmo for da tipo ""OUTROS"""
+OBITO;PO_497;Data da Averbação;Campo do banco de dados. Indica a Data da Averbação.
+OBITO;PO_498;Status do Registro;Campo do banco de dados. Indica o Status do Registro, C -> Cancelado, R -> Retificado, Em branco -> Normal.

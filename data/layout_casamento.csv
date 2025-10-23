@@ -1,0 +1,264 @@
+MÓDULO;CAMPO;TITULO;DESCRICAO
+CASAMENTO;PC_003;Testemunhas do ato do CASAMENTO;"Campo do banco de dados. Trata-se do texto que você digitou neste campo. Geralmente você preenche com a qualificação dos padrinhos."""
+CASAMENTO;PC_005;Acervo;Campo do banco de dados. Retorna o numero do acervo.
+CASAMENTO;PC_006;Inteiro Teor;Campo do banco de dados. Conteúdo da certidaão de Inteiro Teor..
+CASAMENTO;PC_090;Número do protocolo;Campo do banco de dados. Número do protocolo incluído na aba de registro.
+CASAMENTO;PC_101;Nome do contraente 1;Campo do banco de dados. Trata-se do nome do contraente 1, exatamente como você digitou.
+CASAMENTO;PC_102;Sexo do contraente 1;Campo do banco de dados. Sexo do contraente 1 em código (M/F)
+CASAMENTO;PC_103;Profissão do contraente 1;Campo do banco de dados. Profissão do contraente 1, exatamente como você digitou.
+CASAMENTO;PC_104;Estado civil do contraente 1;Campo do banco de dados. Estado civil em código: 1 para solteiro, 2 para viúvo ou 3 para divorciado.
+CASAMENTO;PC_105;Estado civil do contraente 1 (complemento);"Campo do banco de dados. Por exemplo: se o contraente 1 é divorciado neste campo você escreveu ""de Maria Aparecida, conforme mandado..."""
+CASAMENTO;PC_106;CPF Contraente 1;Campo do banco de dados. Contém o número de CPF do contraente 1.
+CASAMENTO;PC_107;CEP Contraente 1;Campo do banco de dados. Contém o número do CEP do contraente 1.
+CASAMENTO;PC_108;RG Contraente 1;Campo do banco de dados. Contém o número do RG do contraente 1.
+CASAMENTO;PC_109;Cidade de nascimento do contraente 1;Campo do banco de dados. Poderá conter a identificação do município e do distrito, se for o caso.
+CASAMENTO;PC_110;Sigla do estado de nascimento do contraente 1;Campo do banco de dados. Apenas a sigla, com duas letras. 
+CASAMENTO;PC_111;Data de nascimento do contraente 1;Campo do banco de dados. 
+CASAMENTO;PC_112;Grupo sanguíneo do Contraente 1;Campo do banco de dados. Retorna o grupo sanguíneo do primeiro contraente (Prov. 63/2017).
+CASAMENTO;PC_113;Endereço de residência do contraente 1;Campo do banco de dados. Você informou o tipo do logradouro (R., Av., etc), o nome do mesmo, o nº e eventualmente algum complemento
+CASAMENTO;PC_114;Nacionalidade do contraente 1;"Campo do banco de dados. Geralmente ""brasileira""."
+CASAMENTO;PC_116;Nome do tutor do contraente 1, caso haja;Campo do banco de dados. Caso o contraente seja menor e tutelado por alguém. O nome do tutor é armazenado neste campo.
+CASAMENTO;PC_117;Grau de instrução do tutor do contraente 1;"Campo do banco de dados. Este campo conterá a letra ""S"" se o tutor do contraente 1 souber escrever ou a letra ""N"" se for analfabeto."
+CASAMENTO;PC_118;Cidade de residência do contraente 1;Campo do banco de dados. Você indicou aqui o município e distrito, se for o caso, onde o contraente reside atualmente.
+CASAMENTO;PC_119;Sigla do estado de residência do contraente 1;Campo do banco de dados. Somente a sigla do estado, contendo 2 letras.
+CASAMENTO;PC_120;Qtde de filhos nascidos vivos tidos pelo contraente;Campo do banco de dados. Apresenta a qtde de filhos nascidos vivos tidos pelo contraente. Geralmente só usado nas estatísticas de SP.
+CASAMENTO;PC_121;Qtde de casamentos civis anteriores do contraente 1;Campo do banco de dados. Este campo registra quantas vezes o contraente 1 se casou antes do atual. Geralmente só usado em estatísticas de SP
+CASAMENTO;PC_122;País de nascimento do contraente 1;"Campo do banco de dados. Geralmente já vem preenchido com ""Brasil"". Estará alterado se o contraente for estrangeiro."
+CASAMENTO;PC_123;Contraente emancipado ? (S=sim/N=não);Campo do banco de dados. É utilizado para controle do Mapa do IBGE quando impresso em papel. Geralmente não se utiliza em documentos.
+CASAMENTO;PC_124;País de residência do contraente 1.;Campo do banco de dados. País onde reside o contraente. Campo utilizado na informação de estatísticas IBGE/SEADE.
+CASAMENTO;PC_125;Cônjuge 1 compareceu na habilitação;Campo do banco de dados. Este campo contém a informação se o cônjuge 1 compareceu na habilitação. Retorna S ou N.
+CASAMENTO;PC_126;Cônjuge 1 compareceu no CASAMENTO;"Campo do banco de dados. Este campo contém a informação se o cônjuge 1 compareceu no casamento. Retorna S ou N."""
+CASAMENTO;PC_128;Telefone Contraente 1;Campo do banco de dados. Contém o número do Telefone do contraente 1.
+CASAMENTO;PC_129;Email Contraente 1;Campo do banco de dados. Contém o número do Email do contraente 1.
+CASAMENTO;PC_130;Nome do pai do contraente 1;Campo do banco de dados. Este campo armazena o nome do pai do contraente 1. Estará em branco caso não possua.
+CASAMENTO;PC_131;Pai vivo, falecido, desaparecido ou ignorado - do contraente 1;"Campo do banco de dados. Armazena V se o pai do contraente 1 estiver vivo F se for falecido, D se desaparecido ou ""espaço"" se ignorado."
+CASAMENTO;PC_132;Qtde de anos que o pai do contraente 1 está desaparecido;Campo do banco de dados. Armazena a quantidade de anos que o pai está desaparecido. Se for vivo ou falecido, contém zero.
+CASAMENTO;PC_133;Grau de instrução do pai do contraente 1;Campo do banco de dados. Este campo armazena apenas uma letra: S se o pai do contraente 1 assina o nome, ou N caso contrário.
+CASAMENTO;PC_134;Idade do pai do contraente 1;Campo do banco de dados. Em anos, conforme digitado. Estará zero se o contraente não possuir pai vivo.
+CASAMENTO;PC_135;Local de residência (ou óbito) do pai do contraente 1;Campo do banco de dados. Estará preenchido com o local de residência do pai do contraente 1 se vivo. Se falecido o local onde faleceu.
+CASAMENTO;PC_136;Data de nascimento ou óbito do pai do contraente 1;Campo do banco de dados. 
+CASAMENTO;PC_137;Nacionalidade do pai do contraente 1;Campo do banco de dados. Nacionalidade do pai do contraente 1
+CASAMENTO;PC_138;Profissao do Pai do Contraente 1;Retorna a profissão do pai do contraente 1.
+CASAMENTO;PC_139;Naturalidade do Pai do Contraente 1;Retorna a naturalidade do pai do contraente 1.
+CASAMENTO;PC_140;Bairro do logradouro do contraente 1;Campo do banco de dados. Bairro do logradouro do contraente 1.
+CASAMENTO;PC_141;NÃºmero do logradouro do contraente 1;Campo do banco de dados. NÃºmero do logradouro do contraente 1.
+CASAMENTO;PC_142;Complemento do logradouro do contraente 1;Campo do banco de dados. Complemento do logradouro do contraente 1.
+CASAMENTO;PC_150;Nome da mãe do contraente 1;Campo do banco de dados. Este campo armazena o nome da mãe do contraente 1. Estará em branco caso não possua.
+CASAMENTO;PC_151;Mãe viva, falecida, desaparecida ou ignorado - do contraente 1;"Campo do banco de dados. Armazena V se a mãe do contraente 1 estiver viva F se for falecida, D se desaparecida ou ""espaço"" se ignorado."
+CASAMENTO;PC_152;Qtde de anos que a mãe do contraente 1 está desaparecida;Campo do banco de dados. Armazena a quantidade de anos que a mãe está desaparecida. Se for viva ou falecida, contém zero.
+CASAMENTO;PC_153;Grau de instrução da mãe do contraente 1;Campo do banco de dados. Este campo armazena apenas uma letra: S se a mãe do contraente 1 assina o nome, ou N caso contrário.
+CASAMENTO;PC_154;Idade da mãe do contraente 1;Campo do banco de dados. Em anos, conforme digitado. Estará zero se o contraente não possuir mãe viva.
+CASAMENTO;PC_155;Local de residência (ou óbito) da mãe do contraente 1;Campo do banco de dados. Estará preenchido com o local de residência da mãe do contraente 1 se viva. Se falecida o local onde faleceu.
+CASAMENTO;PC_156;Data de Nascimento ou óbito da mãe do contraente 1;Campo. Retorna a data de nascimento quando a mãe é viva, ou a data de óbito quando a mãe é falecida (Contraente 1)
+CASAMENTO;PC_157;Nacionalidade da mãe do contraente 1;Campo do banco de dados. Nacionalidade da mãe do contraente 1
+CASAMENTO;PC_158;Profissao da Mãe do Contraente 1;Retorna a profissão da mãe do contraente 1.
+CASAMENTO;PC_159;Naturalidade da Mãe do Contraente 1;Retorna a naturalidade da mãe do contraente 1.
+CASAMENTO;PC_170;Cidade onde foi registrado o nascimento do contraente 1;Campo do banco de dados. Armazena o nome do município, e distrito se for o caso, onde nasceu o contraente 1.
+CASAMENTO;PC_171;N° do subdistrito do cartório de registro;Campo do banco de dados. Este campo armazena o n° do subdistrito, caso o município onde foi registrado o contraente 1 seja assim dividido.
+CASAMENTO;PC_172;Sigla do estado da cidade de registro de nascimento do contraente 1;Campo do banco de dados. Armazena somente a sigla, com 2 letras. 
+CASAMENTO;PC_173;Nº do livro de registro de nascimento do contraente 1;Campo do banco de dados. Este campo indica o número do Livro A usado para o registro do nascimento do contraente 1.
+CASAMENTO;PC_174;Nº da página do livro de reg de nascimento do contraente 1;Campo do banco de dados. Este campo em qual página do Livro A encontra-se o assento de nascimento do contraente 1.
+CASAMENTO;PC_175;Folha (localização) - registro de nascimento do contraente 1;Campo do banco de dados. Conterá a letra v, c ou d se o contraente 1 foi registrado no verso da folha. Em branco, a ou b se na frente.
+CASAMENTO;PC_176;Nº do registro de nascimento do contraente 1;Campo do banco de dados. Este campo armazena o número do termo no qual consta o registro de nascimento do contraente 1.
+CASAMENTO;PC_177;Nome do livro de registro de nascimento do contraente 1;"Campo do banco de dados. Este campo indica o nome do Livro usado para o registro do nascimento do contraente 1 (nem sempre é o ""A"" !)"
+CASAMENTO;PC_180;Cidade de registro de último casamento do contraente 1;Campo do banco de dados. Estará preenchido se o contraente 1 for viúvo ou divorciado. Geralmente usado nas comunicações de casamento.
+CASAMENTO;PC_181;N° do subdistrito do cartório de registro;Campo do banco de dados. Usado se o contraente 1 for viúvo ou divorciado. Armazena o nº do subdistrito se a cidade for assim dividida.
+CASAMENTO;PC_182;Sigla do estado (reg do último casamento do contraente 1);Campo do banco de dados. Contém apenas a sigla, com 2 letras. Estará em branco se o contraente for solteiro.
+CASAMENTO;PC_183;Nº do livro de reg do último casamento do contraente 1;Campo do banco de dados. Indica o número do livro no qual foi registrado o casamento anterior do contraente 1, caso haja.
+CASAMENTO;PC_184;Nº da página de reg do último casamento do contraente 1;Campo do banco de dados. Armazena o nº da página no qual consta o registro do casamento anterior do contraente 1. Usado em comunicações.
+CASAMENTO;PC_185;Nome do livro ref último casamento do contraente 1;Campo do banco de dados. Contém B ou B AUX, conforme tipo do casamento, somente se o contraente for viúvo ou divorciado.
+CASAMENTO;PC_186;Nº do registro do último casamento do contraente 1;Campo do banco de dados. Armazena o número do termo de casamento anterior caso o contraente seja viúvo ou divorciado.
+CASAMENTO;PC_187;LocalizaÃ§Ã£o do registro na folha do último casamento do contraente 1.;Localização do registro na folha do casamento anterior do contraente 1, caso o contraente seja viÃºvo ou divorciado: em branco, a ou b = frente. Letra v, c ou d representam verso.
+CASAMENTO;PC_188;Data do último casamento do contraente 1;Campo do banco de dados. Este campo indica a data do último casamento do contraente 1, caso separado/desquitado, para fins de comunicação.
+CASAMENTO;PC_199;CEP residencial atualizado;Campo do banco de dados. Retorna o CEP residencial atualizado do contraente 1 (Prov. 63/2017).
+CASAMENTO;PC_201;Nome do contraente 2;Campo do banco de dados. Trata-se do nome do contraente 2, exatamente como você digitou.
+CASAMENTO;PC_202;Sexo do contraente 2;Campo do banco de dados. Sexo do contraente 2 em código (M/F)
+CASAMENTO;PC_203;Profissão do contraente 2;Campo do banco de dados. Profissão do contraente 2, exatamente como você digitou.
+CASAMENTO;PC_204;Estado civil do contraente 2;Campo do banco de dados. Estado civil em código: 1 para solteira, 2 para viúva ou 3 para divorciada.
+CASAMENTO;PC_205;Estado civil do contraente 2 (complemento);"Campo do banco de dados. Por exemplo: se o contraente 2 é divorciado neste campo você escreveu ""de Fulano de Tal, conforme mandado..."""
+CASAMENTO;PC_206;CPF Contraente 2;Campo do banco de dados. Contém o número de CPF do contraente 2.
+CASAMENTO;PC_207;CEP Contraente 2;Campo do banco de dados. Contém o número do CEP do contraente 2.
+CASAMENTO;PC_208;RG Contraente 2;Campo do banco de dados. Contém o número do RG do contraente 2.
+CASAMENTO;PC_209;Cidade de nascimento do contraente 2;Campo do banco de dados. Poderá conter a identificação do município e do distrito, se for o caso.
+CASAMENTO;PC_210;Sigla do estado de nascimento do contraente 2;Campo do banco de dados. Apenas a sigla, com duas letras. 
+CASAMENTO;PC_211;Data de nascimento do contraente 2;Campo do banco de dados. 
+CASAMENTO;PC_212;Grupo sanguíneo do Contraente 2;Campo do banco de dados. Retorna o grupo sanguíneo do segundo contraente (Prov. 63/2017).
+CASAMENTO;PC_213;Endereço de residência do contraente 2;Campo do banco de dados. Você informou o tipo do logradouro (R., Av., etc), o nome do mesmo, o nº e eventualmente algum complemento
+CASAMENTO;PC_214;Nacionalidade do contraente 2;"Campo do banco de dados. Geralmente ""brasileira""."
+CASAMENTO;PC_216;Nome do tutor do contraente 2, caso haja;Campo do banco de dados. Caso a contraente seja menor e tutelada por alguém. O nome do tutor é armazenado neste campo.
+CASAMENTO;PC_217;Grau de instrução do tutor do contraente 2;"Campo do banco de dados. Este campo conterá a letra ""S"" se o tutor do contraente 2 puder assinar o nome, ou ""N"" caso contrário."
+CASAMENTO;PC_218;Cidade de residência do contraente 2;Campo do banco de dados. Você indicou aqui o município e distrito, se for o caso, onde a contraente reside atualmente.
+CASAMENTO;PC_219;Sigla do estado de residência do contraente 2;Campo do banco de dados. Somente a sigla do estado, contendo 2 letras.
+CASAMENTO;PC_220;Qtde de filhos nascidos vivos tidos pela contraente;Campo do banco de dados. Apresenta a quantidade de filhos nascidos vivos tidos pela contraente. Geralmente só usado nas estatísticas de SP.
+CASAMENTO;PC_221;Qtde de casamentos civis anteriores do contraente 2;Campo do banco de dados. Este campo registra quantas vezes o contraente 2 se casou antes do atual. Geralmente só usado em estatísticas de SP
+CASAMENTO;PC_222;País de nascimento do contraente 2;"Campo do banco de dados. Geralmente já vem preenchido com ""Brasil"" Estará alterado se a contraente for estrangeira."
+CASAMENTO;PC_223;Contraente emancipada ? (S=sim/N=não);Campo do banco de dados. É utilizado para controle do Mapa do IBGE quando impresso em papel. Geralmente não se utiliza em documentos.
+CASAMENTO;PC_224;País de residência do contraente 2.;Campo do banco de dados. País onde reside a contraente. Campo utilizado na informação de estatísticas IBGE/SEADE.
+CASAMENTO;PC_225;Cônjuge 2 compareceu na habilitação;Campo do banco de dados. Este campo contém a informação se o cônjuge 2 compareceu na habilitação. Retorna S ou N.
+CASAMENTO;PC_226;Cônjuge 2 compareceu no CASAMENTO;"PC_""Campo do banco de dados. Este campo contém a informação se o cônjuge 2 compareceu no casamento. Retorna S ou N."""
+CASAMENTO;PC_228;Telefone Contraente 2;Campo do banco de dados. Contém o número do Telefone do contraente 2.
+CASAMENTO;PC_229;Email Contraente 2;Campo do banco de dados. Contém o número do Email do contraente 2.
+CASAMENTO;PC_230;Nome do pai do contraente 2;Campo do banco de dados. Este campo armazena o nome do pai do contraente 2. Estará em branco caso não possua.
+CASAMENTO;PC_231;Pai vivo, falecido, desaparecido ou ignorado - do contraente 2;"Campo do banco de dados. Armazena V se o pai do contraente 2 estiver vivo F se for falecido, D se desaparecido ou ""espaço"" se ignorado."
+CASAMENTO;PC_232;Qtde de anos que o pai do contraente 2 está desaparecido;Campo do banco de dados. Armazena a quantidade de anos que o pai está desaparecido. Se for vivo ou falecido, contém zero.
+CASAMENTO;PC_233;Grau de instrução do pai do contraente 2;Campo do banco de dados. Este campo armazena apenas uma letra: S se o pai assina o nome, ou N caso contrário.
+CASAMENTO;PC_234;Idade do pai do contraente 2;Campo do banco de dados. Em anos, conforme digitado. Estará zero se a contraente não possuir pai vivo.
+CASAMENTO;PC_235;Local de residência (ou óbito) do pai do contraente 2;Campo do banco de dados. Estará preenchido com o local de residência do pai da contraente 1 se vivo. Se falecido o local onde faleceu.
+CASAMENTO;PC_236;Data de nascimento ou óbito do pai do contraente 2;Campo do banco de dados. 
+CASAMENTO;PC_237;Nacionalidade do pai do contraente 2;Campo do banco de dados. Nacionalidade do pai do contraente 2
+CASAMENTO;PC_238;Profissao do Pai do Contraente 2;Retorna a profissão do pai do contraente 2.
+CASAMENTO;PC_239;Naturalidade do Pai do Contraente 2;Retorna a naturalidade do pai do contraente 2.
+CASAMENTO;PC_240;Bairro do logradouro do contraente 2;Campo do banco de dados. Bairro do logradouro do contraente 2.
+CASAMENTO;PC_241;NÃºmero do logradouro do contraente 2;Campo do banco de dados. NÃºmero do logradouro do contraente 2.
+CASAMENTO;PC_242;Complemento do logradouro do contraente 2;Campo do banco de dados. Complemento do logradouro do contraente 2.
+CASAMENTO;PC_250;Nome da mãe do contraente 2;Campo do banco de dados. Este campo armazena o nome da mãe do contraente 2. Estará em branco caso não possua.
+CASAMENTO;PC_251;Mãe viva, falecida, desaparecida ou ignorado - do contraente 2;"Campo do banco de dados. Armazena V se a mãe do contraente 2 estiver viva F se for falecida, D se desaparecida ou ""espaço"" se ignorado."
+CASAMENTO;PC_252;Qtde de anos que a mãe do contraente 2 está desaparecida;Campo do banco de dados. Armazena a quantidade de anos que a mãe está desaparecida. Se for viva ou falecida, contém zero.
+CASAMENTO;PC_253;Grau de instrução da mãe do contraente 2;Campo do banco de dados. Este campo armazena apenas uma letra: S se a mãe do contraente 2 assina o nome, ou N caso contrário.
+CASAMENTO;PC_254;Idade da mãe do contraente 2;Campo do banco de dados. Em anos, conforme digitado. Estará zero se a contraente não possuir mãe viva.
+CASAMENTO;PC_255;Local de residência (ou óbito) da mãe do contraente 2;Campo do banco de dados. Estará preenchido com o local de residência da mãe do contraente 2 se viva. Se falecida o local onde faleceu.
+CASAMENTO;PC_256;Data de Nascimento ou óbito da mãe do contraente 2;Campo. Retorna a data de nascimento quando a mãe é viva, ou a data de óbito quando a mãe é falecida (Contraente 2)
+CASAMENTO;PC_257;Nacionalidade da mãe do contraente 2;Campo do banco de dados. Nacionalidade da mãe do contraente 2
+CASAMENTO;PC_258;Profissao da Mãe do Contraente 2;Retorna a profissão da mãe do contraente 2.
+CASAMENTO;PC_259;Naturalidade da Mãe do Contraente 2;Retorna a naturalidade da mãe do contraente 2.
+CASAMENTO;PC_270;Cidade onde foi registrado o nascimento do contraente 2;Campo do banco de dados. Armazena o nome do município, e distrito se for o caso, onde nasceu o contraente 1.
+CASAMENTO;PC_271;N° do subdistrito do cartório de registro;Descrição: Campo do banco de dados. Este campo armazena o nº do subdistrito, caso o município onde foi registrado o contraente 2 seja assim dividido.
+CASAMENTO;PC_272;Sigla do estado da cidade de registro de nascimento do contraente 2;Campo do banco de dados. Armazena somente a sigla, com 2 letras. 
+CASAMENTO;PC_273;Nº do livro de registro de nascimento do contraente 2;Campo do banco de dados. Este campo indica o número do Livro A usado para o registro do nascimento do contraente 2.
+CASAMENTO;PC_274;Nº da página do livro de reg de nascimento do contraente 2;Campo do banco de dados. Este campo em qual página do Livro A encontra-se o assento de nascimento do contraente 2.
+CASAMENTO;PC_275;Folha (localização) - registro de nascimento do contraente 2;Campo do banco de dados. Conterá a letra v, c ou d se o contraente 2 foi registrada no verso da folha. Em branco, a ou b se na frente.
+CASAMENTO;PC_276;Nº do registro de nascimento do contraente 2;Campo do banco de dados. Este campo armazena o número do termo no qual consta o registro de nascimento do contraente 2.
+CASAMENTO;PC_277;Nome do livro de registro de nascimento do contraente 2;"Campo do banco de dados. Este campo indica o nome do Livro usado para o registro do nascimento do contraente 2 (nem sempre é o ""A"" !)"
+CASAMENTO;PC_278;Origem do dados;Campo do banco de dados. Origem do dados
+CASAMENTO;PC_280;Cidade de registro de último casamento do contraente 2;Campo do banco de dados. Estará preenchido se o contraente 2 for viúva ou divorciada. Geralmente usado nas comunicações de casamento.
+CASAMENTO;PC_281;N° do subdistrito de reg do último casamento do contraente 2;Campo do banco de dados. Usado se o contraente 2 for viúva ou divorciada. Armazena o nº do subdistrito se a cidade for assim dividida.
+CASAMENTO;PC_282;Sigla do estado (reg do último casamento do contraente 2);Campo do banco de dados. Contém apenas a sigla, com 2 letras. Estará em branco se a contraente for solteira.
+CASAMENTO;PC_283;Nº do livro de reg do último casamento do contraente 2;Campo do banco de dados. Indica o número do livro no qual foi registrado o casamento anterior do contraente 2, caso haja.
+CASAMENTO;PC_284;Nº da página de reg do último casamento do contraente 2;Campo do banco de dados. Armazena o nº da página no qual consta o registro do casamento anterior da contraente 1. Usado em comunicações.
+CASAMENTO;PC_285;Nome do livro ref último casamento do contraente 2;Campo do banco de dados. Contém B ou B AUX, conforme tipo do casamento, somente se a contraente for viúva ou divorciada.
+CASAMENTO;PC_286;Nº do registro do último casamento do contraente 2;Campo do banco de dados. Armazena o número do termo de casamento anterior caso a contraente seja viúva ou divorciada.
+CASAMENTO;PC_287;LocalizaÃ§Ã£o do registro na folha do último casamento do contraente 2.;Localização do registro na folha do casamento anterior do contraente 2, caso o contraente seja viÃºvo ou divorciado: em branco, a ou b = frente. Letra v, c ou d representam verso.
+CASAMENTO;PC_288;Data do último casamento do contraente 2;Campo do banco de dados. Este campo indica a data do último casamento do contraente 2, caso separado/desquitado, para fins de comunicação.
+CASAMENTO;PC_299;CEP residencial atualizado;Campo do banco de dados. Retorna o CEP residencial atualizado do contraente 2 (Prov. 63/2017).
+CASAMENTO;PC_300;Nº do processo de habilitação para o CASAMENTO;"Campo do banco de dados. Neste campo é armazenado o número atribuído ao processo de habilitação para o casamento."""
+CASAMENTO;PC_301;Nº do registro de CASAMENTO;"Campo do banco de dados. Neste campo é armazenado o número do Termo onde encontra-se lavrado o registro de casamento."""
+CASAMENTO;PC_302;Nº do livro;Campo do banco de dados. Este campo contém o número do livro usado para a lavratura do registro de casamento.
+CASAMENTO;PC_303;Nº da página de registro;Campo do banco de dados. Este campo contém o número da página utilizada para lavrar o registro de casamento.
+CASAMENTO;PC_304;Data de entrada do processo;Campo do banco de dados. Trata-se da data no qual os contraente 1s deram entrada no processo de casamento.
+CASAMENTO;PC_305;Data de realização do CASAMENTO;"Campo do banco de dados. Poderá ser diferente da data do registro em se tratando de casamento religioso com efeito civil."""
+CASAMENTO;PC_306;Horário de realização do CASAMENTO;"Campo do banco de dados. Hora da celebração do casamento. """
+CASAMENTO;PC_307;Data de publicação do edital;Campo do banco de dados. Data em que publicou-se o Edital de Proclamas.
+CASAMENTO;PC_308;Via adicional do edital (E=ele/A=ela/N=nenhum);Campo do banco de dados. Em código: E ou A se o/a contraente 1/a residirem fora da jurisdição do cartório, ou N caso contrário.
+CASAMENTO;PC_309;Nº da Guia de recolhimento;Campo do banco de dados. Número da Guia de recolhimento dos tributos.
+CASAMENTO;PC_310;Nome adotado pela contraente após o CASAMENTO;"Campo do banco de dados. Nome que a contraente passa a usar a adotar após o casamento."""
+CASAMENTO;PC_311;Data de registro;Campo do banco de dados. Data na qual lavrou-se o casamento no cartório.
+CASAMENTO;PC_312;Folha (localização) - registro do CASAMENTO;Campo do banco de dados. Localização do registro na folha: em branco
+CASAMENTO;PC_313;Nº do livro D (Edital de Proclamas);Campo do banco de dados. Este campo contém o número do livro utilizado para arquivar o edital de proclamas do casamento.
+CASAMENTO;PC_314;Nº da página do livro D (Edital de Proclamas);Campo do banco de dados. Este campo contém o número do página do livro D utilizada para arquivar o edital de proclamas do casamento
+CASAMENTO;PC_315;Folha (localização) - Livro D;Campo do banco de dados. Conterá a letra v, c ou d se o edital foi registrado no verso da folha. Em branco, a ou b se na frente.
+CASAMENTO;PC_316;Nº do edital;Campo do banco de dados. Neste campo é armazenado o número do Edital de Proclamas referente ao processo de casamento.
+CASAMENTO;PC_317;União estável;"Campo do banco de dados. Neste campo é armazenado ""S"" caso se trate de conversão de união estável em casamento."
+CASAMENTO;PC_318;Nome adotado pelo contraente após o CASAMENTO;"Campo do banco de dados. Nome que o contraente passa a usar após o casamento. Previsão de uso após promulgação do novo Código Civil."""
+CASAMENTO;PC_319;Documentos apresentados pelos contraentes;Campo do banco de dados. Texto contendo os documentos apresentados pelos contraentes para dar entrada no processo de casamento.
+CASAMENTO;PC_320;Regime adotado;Campo do banco de dados. Tipo do regime de bens adotado para o casamento.
+CASAMENTO;PC_323;Local de realização do CASAMENTO;"Campo do banco de dados. Geralmente preenchido com """"em Cartório"""". Se relig c/efeito civil poderá estar armazenado o nome da igreja."""
+CASAMENTO;PC_324;Endereço do local de realização do CASAMENTO;"Campo do banco de dados. Endereço da igreja ou do cartório."""
+CASAMENTO;PC_325;Nome do celebrante;Campo do banco de dados. Nome do juiz de paz, padre, pastor, etc, que celebraram o casamento.
+CASAMENTO;PC_326;Nome do livro de registro (B ou B AUX);Campo do banco de dados. Identificação do livro - B para casamento civil normal e B-Aux para religioso com efeito civil.
+CASAMENTO;PC_327;Nome do jornal no qual foi publicado o edital;Campo do banco de dados. Se não publica edital, normalmente poderá estar em branco.
+CASAMENTO;PC_328;Tipo de Celebrante;Tipo de celebrante que realizou a cerimônia. ( 1- Juiz,   2- Juiz Direito,  3-Autoridade Religiosa,  10-Outro)
+CASAMENTO;PC_329;Dispensa de Edital;Campo 329 - Retorna SIM ou NÃO
+CASAMENTO;PC_330;Nome da 1ª testemunha;Campo do banco de dados. Nome da 1ª testemunha da habilitação do casamento.
+CASAMENTO;PC_331;Idade da 1ª testemunha;Campo do banco de dados. Em anos. 
+CASAMENTO;PC_332;Estado civil da 1ª testemunha;Campo do banco de dados. Em código: 1=solteiro, 2=casado, 3=viúvo, 4=separado judicialmente, 5=desquitado, 6=divorciado, 9=ignorado
+CASAMENTO;PC_333;Profissão da 1ª testemunha;Campo do banco de dados. 
+CASAMENTO;PC_334;Documento apresentado pela 1ª testemunha;Campo do banco de dados. Poderá ser carteira de identidade, CPF, etc.
+CASAMENTO;PC_335;Endereço de residência da 1ª testemunha;Campo do banco de dados. Tipo de logradouro, nome, número e demais complementos.
+CASAMENTO;PC_336;Nacionalidade da 1ª testemunha;Campo do banco de dados. Nacionalidade da primeira testemunha.
+CASAMENTO;PC_337;Data de nascimento da 1.ª testemunha;Campo do banco de dados. Armazena a data de nascimento da segunda testemunha.
+CASAMENTO;PC_338;CPF da 1ª testemunha;Campo do banco de dados. Armazena o CPF da primeira testemunha.
+CASAMENTO;PC_340;Nome da 2ª testemunha;Campo do banco de dados. Nome da 2ª testemunha da habilitação do casamento.
+CASAMENTO;PC_341;Idade da 2ª testemunha;Campo do banco de dados. Em anos. 
+CASAMENTO;PC_342;Estado civil da 2ª testemunha;Campo do banco de dados. Em código: 1=solteiro, 2=casado, 3=viúvo, 4=separado judicialmente, 5=desquitado, 6=divorciado, 9=ignorado
+CASAMENTO;PC_343;Profissão da 2ª testemunha;Campo do banco de dados. 
+CASAMENTO;PC_344;Documento apresentado pela 2ª testemunha;Campo do banco de dados. Poderá ser carteira de identidade, CPF, etc.
+CASAMENTO;PC_345;Endereço de residência da 2ª testemunha;Campo do banco de dados. Tipo de logradouro, nome, número e demais complementos.
+CASAMENTO;PC_346;Nacionalidade da 2ª testemunha;Campo do banco de dados. Nacionalidade da segunda testemunha.
+CASAMENTO;PC_347;Data de nascimento da 2.ª testemunha;Campo do banco de dados. Armazena a data de nascimento da segunda testemunha.
+CASAMENTO;PC_348;CPF da 2ª testemunha;Campo do banco de dados. Armazena o CPF da segunda testemunha.
+CASAMENTO;PC_349;Telefone da 1ª testemunha;Campo do banco de dados. Armazena o Telefone da primeira testemunha.
+CASAMENTO;PC_350;Contraentes hipossuficientes                              RJ;Campo do banco de dados. Armazena S se contraentes forem hipossuficientes ou N caso contrário.
+CASAMENTO;PC_351;Selo utilizado na habilitação                             RJ;Campo do banco de dados. Armazena número do selo utilizado durante o processo de habilitação.
+CASAMENTO;PC_352;Nº autorização judicial que dispensou publ edital DO      RJ;Campo do banco de dados. Armazena o número da autorização judicial que determinou a dispensa da publicação dos proclamas no D. Oficial
+CASAMENTO;PC_353;Código referente a Juiz de Paz                            RJ;Campo do banco de dados. Armazena 1 se juiz de paz for da sede, caso contrário 2.
+CASAMENTO;PC_354;Nº do documento do juiz de paz                            RJ;Campo do banco de dados. Armazena o número do documento do juiz de paz que celebrou o casamento.
+CASAMENTO;PC_355;Tipo do documento do juiz de paz                          RJ;Campo do banco de dados. Armazena o tipo do documento do juiz de paz que celebrou o casamento.
+CASAMENTO;PC_356;Serventia onde foi lavrado o pacto antenupcial            RJ;Campo do banco de dados. Armazena o nome da serventia onde foi lavrado o pacto antenupcial, se houver.
+CASAMENTO;PC_357;Nº do livro do pacto antenupcial                          RJ;Campo do banco de dados. Armazena o número do livro onde foi lavrado o pacto antenupcial, se houver.
+CASAMENTO;PC_358;Nº da folha do livro do pacto antenupcial                 RJ;Campo do banco de dados. Armazena o número da folha do livro onde foi lavrado o pacto antenupcial, se houver.
+CASAMENTO;PC_359;Ato do pacto antenupcial                                  RJ;Campo do banco de dados. Armazena uma descrição do ato do pacto antenupcial, se houver.
+CASAMENTO;PC_360;Data do pacto antenupcial                                 RJ;Campo do banco de dados. Armazena a data de lavratura do pacto antenupcial, se houver.
+CASAMENTO;PC_361;Selo do pacto antenupcial                                 RJ;Campo do banco de dados. Armazena o número do selo utilizado no pacto antenupcial, se houver, e se a serventia for do Estado do RJ
+CASAMENTO;PC_362;Se pacto antenupcial foi lavrado no Rio                   RJ;Campo do banco de dados. Armazena o S se o pacto antenupcial foi lavrado no Estado do Rio de Janeiro, N caso contrário.
+CASAMENTO;PC_363;Tipo de CASAMENTO;Tipo de casamento. 
+CASAMENTO;PC_364;Motivo da Dispensa de Edital;Campo: Retorna o Motivo da Dispensa de Edital.
+CASAMENTO;PC_365;CPF do celebrante;Campo: Retorna o CPF do celebrante do casamento.
+CASAMENTO;PC_366;Data de início da habilitação;Campo do banco de dados. Trata-se da data no qual deu início a habilitação do processo de casamento.
+CASAMENTO;PC_369;Telefone da 2ª testemunha;Campo do banco de dados. Armazena o Telefone da segunda testemunha.
+CASAMENTO;PC_370;Motivo do cancelamento do registro;Campo do banco de dados. Motivo do cancelamento do registro
+CASAMENTO;PC_371;Campo gratuidade;Retorna a informação se o casamento é gratuito sim ou não.
+CASAMENTO;PC_399;Dados do pacto antenupcial;Campo do banco de dados. Utilizado para as informações da localização do pacto antenupcial.
+CASAMENTO;PC_401;Nome do procurador ou a rogo que assina a habilitação no lugar do contraente 1;Campo do banco de dados. Armazena o nome do procurador ou a rogo que assina a habilitação no lugar do contraente 1, se houver procurador ou a rogo.
+CASAMENTO;PC_402;Idade do procurador ou a rogo que assina a habilitação no lugar do contraente 1;Campo do banco de dados. Armazena a idade do procurador ou a rogo que assina a habilitação no lugar do contraente 1, se houver procurador ou a rogo.
+CASAMENTO;PC_403;Profissão do procurador ou a rogo que assina a habilitação no lugar do contraente 1;Campo do banco de dados. Armazena a profissão do procurador ou a rogo que assina a habilitação no lugar do contraente 1, se houver procurador ou a rogo.
+CASAMENTO;PC_404;Estado Civil do procurador ou a rogo que assina a habilitação no lugar do contraente 1;Campo do banco de dados, em código. Armazena o estado civil do procurador ou a rogo que assina a habilitação no lugar do contraente 1, se houver procurador ou a rogo (1: Solteiro, 2: Casado,  3: Viúvo,  4: Separado Judicialmente, 5: Desquitado, 6: Divorciado, 9: Ignorado).
+CASAMENTO;PC_405;Nacionalidade do procurador ou a rogo que assina a habilitação no lugar do contraente 1;Campo do banco de dados. Armazena a nacionalidade do procurador ou a rogo que assina a habilitação no lugar do contraente 1, se houver procurador ou a rogo.
+CASAMENTO;PC_406;RG do procurador ou a rogo que assina a habilitação no lugar do contraente 1;Campo do banco de dados. Armazena o RG do procurador ou a rogo que assina a habilitação no lugar do contraente 1, se houver procurador ou a rogo.
+CASAMENTO;PC_407;CPF do procurador ou a rogo que assina a habilitação no lugar do contraente 1;Campo do banco de dados. Armazena o CPF do procurador ou a rogo que assina a habilitação no lugar do contraente 1, se houver procurador ou a rogo.
+CASAMENTO;PC_408;Endereço do procurador ou a rogo que assina a habilitação no lugar do contraente 1;Campo do banco de dados. Armazena o endereço de quem assina a habilitação no lugar do contraente 1, se houver procurador ou a rogo.
+CASAMENTO;PC_409;Local de registro da procuração de quem assina a habilitação no lugar do contraente 1;Campo do banco de dados. Armazena o nome da serventia na qual a procuração de quem assina a habilitação no lugar do contraente 1, se houver procurador.
+CASAMENTO;PC_410;Número do livro do registro da procuração de quem assina a habilitação no lugar do contraente 1;Campo do banco de dados. Armazena o número do livro na qual a procuração de quem assina a habilitação no lugar do contraente 1, se houver procurador.
+CASAMENTO;PC_411;Número da página do registro da procuração de quem assina a habilitação no lugar do contraente 1;Campo do banco de dados. Armazena o número da página (e caractere que indica o verso) na qual a procuração de quem assina a habilitação no lugar do contraente 1, se houver procurador.
+CASAMENTO;PC_412;Data de expedição da procuração de quem assina a habilitação no lugar do contraente 1;Campo do banco de dados. Armazena a data de expedição da procuração de quem assina a habilitação no lugar do contraente 1, se houver procurador..
+CASAMENTO;PC_413;Sexo do procurador ou a rogo que assina a habilitação no lugar do contraente 1;Campo do banco de dados. Sexo do procurador ou a rogo contraente 1 em código (M/F)
+CASAMENTO;PC_421;Nome do procurador ou a rogo que assina a habilitação no lugar do contraente 2;Campo do banco de dados. Armazena o nome do procurador ou a rogo que assina a habilitação no lugar do contraente 2, se houver procurador ou a rogo.
+CASAMENTO;PC_422;Idade do procurador ou a rogo que assina a habilitação no lugar do contraente 2;Campo do banco de dados. Armazena a idade do procurador ou a rogo que assina a habilitação no lugar do contraente 2, se houver procurador ou a rogo.
+CASAMENTO;PC_423;Profissão do procurador ou a rogo que assina a habilitação no lugar do contraente 2;Campo do banco de dados. Armazena a profissão do procurador ou a rogo que assina a habilitação no lugar do contraente 2, se houver procurador ou a rogo.
+CASAMENTO;PC_424;Estado Civil do procurador ou a rogo que assina a habilitação no lugar do contraente 2;Campo do banco de dados, em código. Armazena o estado civil do procurador ou a rogo que assina a habilitação no lugar do contraente 2, se houver procurador ou a rogo (1: Solteiro, 2: Casado,  3: Viúvo,  4: Separado Judicialmente, 5: Desquitado, 6: Divorciado, 9: Ignorado).
+CASAMENTO;PC_425;Nacionalidade do procurador ou a rogo que assina a habilitação no lugar do contraente 2;Campo do banco de dados. Armazena a nacionalidade do procurador ou a rogo que assina a habilitação no lugar do contraente 2, se houver procurador ou a rogo.
+CASAMENTO;PC_426;RG do procurador ou a rogo que assina a habilitação no lugar do contraente 2;Campo do banco de dados. Armazena o RG do procurador ou a rogo que assina a habilitação no lugar do contraente 2, se houver procurador ou a rogo.
+CASAMENTO;PC_427;CPF do procurador ou a rogo que assina a habilitação no lugar do contraente 2;Campo do banco de dados. Armazena o CPF do procurador ou a rogo que assina a habilitação no lugar do contraente 2, se houver procurador ou a rogo.
+CASAMENTO;PC_428;Endereço do procurador ou a rogo que assina a habilitação no lugar do contraente 2;Campo do banco de dados. Armazena o endereço de quem assina a habilitação no lugar do contraente 2, se houver procurador ou a rogo.
+CASAMENTO;PC_429;Local de registro da procuração de quem assina a habilitação no lugar do contraente 2;Campo do banco de dados. Armazena o nome da serventia na qual a procuração de quem assina a habilitação no lugar do contraente 2, se houver procurador.
+CASAMENTO;PC_430;Número do livro do registro da procuração de quem assina a habilitação no lugar do contraente 2;Campo do banco de dados. Armazena o número do livro na qual a procuração de quem assina a habilitação no lugar do contraente 2, se houver procurador.
+CASAMENTO;PC_431;Número da página do registro da procuração de quem assina a habilitação no lugar do contraente 2;Campo do banco de dados. Armazena o número da página (e caractere que indica o verso) na qual a procuração de quem assina a habilitação no lugar do contraente 2, se houver procurador.
+CASAMENTO;PC_432;Data de expedição da procuração de quem assina a habilitação no lugar do contraente 2;Campo do banco de dados. Armazena a data de expedição da procuração de quem assina a habilitação no lugar do contraente 2, se houver procurador..
+CASAMENTO;PC_433;Sexo do procurador ou a rogo que assina a habilitação no lugar do contraente 2;Campo do banco de dados. Sexo do procurador ou a rogo contraente 1 em código (M/F)
+CASAMENTO;PC_441;Nome do procurador que assina o casamento no lugar do contraente 1;Campo do banco de dados. Armazena o nome do procurador que assina o casamento no lugar do contraente 1, se houver procurador.
+CASAMENTO;PC_442;Idade do procurador que assina o casamento no lugar do contraente 1;Campo do banco de dados. Armazena a idade do procurador que assina o casamento no lugar do contraente 1, se houver procurador.
+CASAMENTO;PC_443;Profissão do procurador que assina o casamento no lugar do contraente 1;Campo do banco de dados. Armazena a profissão do procurador que assina o casamento no lugar do contraente 1, se houver procurador.
+CASAMENTO;PC_444;Estado Civil do procurador que assina o casamento no lugar do contraente 1;Campo do banco de dados, em código. Armazena o estado civil do procurador que assina o casamento no lugar do contraente 1, se houver procurador (1: Solteiro, 2: Casado,  3: Viúvo,  4: Separado Judicialmente, 5: Desquitado, 6: Divorciado, 9: Ignorado).
+CASAMENTO;PC_445;Nacionalidade do procurador que assina o casamento no lugar do contraente 1;Campo do banco de dados. Armazena a nacionalidade do procurador que assina o casamento no lugar do contraente 1, se houver procurador.
+CASAMENTO;PC_446;RG do procurador que assina o casamento no lugar do contraente 1;Campo do banco de dados. Armazena o RG do procurador que assina o casamento no lugar do contraente 1, se houver procurador.
+CASAMENTO;PC_447;CPF do procurador que assina o casamento no lugar do contraente 1;Campo do banco de dados. Armazena o CPF do procurador que assina o casamento no lugar do contraente 1, se houver procurador.
+CASAMENTO;PC_448;Endereço do procurador que assina o casamento no lugar do contraente 1;Campo do banco de dados. Armazena o endereço de quem assina o casamento no lugar do contraente 1, se houver procurador.
+CASAMENTO;PC_449;Local de registro da procuração de quem assina o casamento no lugar do contraente 1;Campo do banco de dados. Armazena o nome da serventia na qual a procuração de quem assina o casamento no lugar do contraente 1, se houver procurador.
+CASAMENTO;PC_450;Número do livro do registro da procuração de quem assina o casamento no lugar do contraente 1;Campo do banco de dados. Armazena o número do livro na qual a procuração de quem assina o casamento no lugar do contraente 1, se houver procurador.
+CASAMENTO;PC_451;Número da página do registro da procuração de quem assina o casamento no lugar do contraente 1;Campo do banco de dados. Armazena o número da página (e caractere que indica o verso) na qual a procuração de quem assina o casamento no lugar do contraente 1, se houver procurador.
+CASAMENTO;PC_452;Data de expedição da procuração de quem assina o casamento no lugar do contraente 1;Campo do banco de dados. Armazena a data de expedição da procuração de quem assina o casamento no lugar do contraente 1, se houver procurador..
+CASAMENTO;PC_453;Sexo do procurador que assina o casamento no lugar do contraente 1;Campo do banco de dados. Sexo do procurador contraente 1 em código (M/F)
+CASAMENTO;PC_461;Nome do procurador que assina o casamento no lugar do contraente 2;Campo do banco de dados. Armazena o nome do procurador que assina o casamento no lugar do contraente 2, se houver procurador.
+CASAMENTO;PC_462;Idade do procurador que assina o casamento no lugar do contraente 2;Campo do banco de dados. Armazena a idade do procurador que assina o casamento no lugar do contraente 2, se houver procurador.
+CASAMENTO;PC_463;Profissão do procurador que assina o casamento no lugar do contraente 2;Campo do banco de dados. Armazena a profissão do procurador que assina o casamento no lugar do contraente 2, se houver procurador.
+CASAMENTO;PC_464;Estado Civil do procurador que assina o casamento no lugar do contraente 2;Campo do banco de dados, em código. Armazena o estado civil do procurador que assina o casamento no lugar do contraente 2, se houver procurador (1: Solteiro, 2: Casado,  3: Viúvo,  4: Separado Judicialmente, 5: Desquitado, 6: Divorciado, 9: Ignorado).
+CASAMENTO;PC_465;Nacionalidade do procurador que assina o casamento no lugar do contraente 2;Campo do banco de dados. Armazena a nacionalidade do procurador que assina o casamento no lugar do contraente 2, se houver procurador.
+CASAMENTO;PC_466;RG do procurador que assina o casamento no lugar do contraente 2;Campo do banco de dados. Armazena o RG do procurador que assina o casamento no lugar do contraente 2, se houver procurador.
+CASAMENTO;PC_467;CPF do procurador que assina o casamento no lugar do contraente 2;Campo do banco de dados. Armazena o CPF do procurador que assina o casamento no lugar do contraente 2, se houver procurador.
+CASAMENTO;PC_468;Endereço do procurador que assina o casamento no lugar do contraente 2;Campo do banco de dados. Armazena o endereço de quem assina o casamento no lugar do contraente 2, se houver procurador.
+CASAMENTO;PC_469;Local de registro da procuração de quem assina o casamento no lugar do contraente 2;Campo do banco de dados. Armazena o nome da serventia na qual a procuração de quem assina o casamento no lugar do contraente 2, se houver procurador.
+CASAMENTO;PC_470;Número do livro do registro da procuração de quem assina o casamento no lugar do contraente 2;Campo do banco de dados. Armazena o número do livro na qual a procuração de quem assina o casamento no lugar do contraente 2, se houver procurador.
+CASAMENTO;PC_471;Número da página do registro da procuração de quem assina o casamento no lugar do contraente 2;Campo do banco de dados. Armazena o número da página (e caractere que indica o verso) na qual a procuração de quem assina o casamento no lugar do contraente 2, se houver procurador.
+CASAMENTO;PC_472;Data de expedição da procuração de quem assina o casamento no lugar do contraente 2;Campo do banco de dados. Armazena a data de expedição da procuração de quem assina o casamento no lugar do contraente 2, se houver procurador..
+CASAMENTO;PC_473;Sexo do procurador que assina o casamento no lugar do contraente 2;Campo do banco de dados. Sexo do procurador contraente 1 em código (M/F)
+CASAMENTO;PC_497;Data da Averbação;Campo do banco de dados. Indica a Data da Averbação.
+CASAMENTO;PC_498;Status do Registro;Campo do banco de dados. Indica o Status do Registro, C -> Cancelado, R -> Retificado, Em branco -> Normal.
