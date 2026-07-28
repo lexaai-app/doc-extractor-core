@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CRIAVERSO — Impressão 3D por Júlia Miranda | Miniaturas, brinquedos e amenidades</title>
+<meta name="description" content="Loja de impressão 3D CRIAVERSO: miniaturas, brinquedos e amenidades sob encomenda, além de modelagem, protótipos e brindes personalizados. Imagine, crie, viva.">
+<meta name="theme-color" content="#06030C">
+<meta property="og:title" content="CRIAVERSO — Impressão 3D por Júlia Miranda">
+<meta property="og:description" content="Chegamos para dar vida às suas ideias. 40 peças no catálogo: miniaturas, brinquedos e amenidades.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 380'%3E%3Cpath d='M262 94.2A112 112 0 1 0 262 265.8L233.7 232.1A68 68 0 1 1 233.7 127.9Z' fill='%238B5CF6'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- ============ defs globais de gradiente (usados por toda a arte) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="gA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#5B54E8"/>
+    </linearGradient>
+    <linearGradient id="gB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6D5AF0"/><stop offset="1" stop-color="#2F6BEA"/>
+    </linearGradient>
+    <linearGradient id="gC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D46CF9"/><stop offset="1" stop-color="#7C4DF0"/>
+    </linearGradient>
+    <linearGradient id="gPlate" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C05CF7" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#A78BFA" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#4E7CF6" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="gGlow">
+      <stop offset="0" stop-color="#E9D5FF" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gWord" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset=".52" stop-color="#E9E2FF"/><stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="gRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C05CF7"/><stop offset=".55" stop-color="#7C4DF0"/><stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<div class="stars" id="stars" aria-hidden="true"></div>
+
+<!-- ================================ header ================================ -->
+<header class="topbar" id="topbar">
+  <div class="wrap">
+    <a class="brand" href="#topo" aria-label="CRIAVERSO — início">
+      <svg class="mark" viewBox="52 62 236 236" aria-hidden="true">
+        <path d="M262 94.2A112 112 0 1 0 262 265.8L233.7 232.1A68 68 0 1 1 233.7 127.9Z" fill="url(#gRing)"/>
+        <path d="M198 158l5 15 15 5-15 5-5 15-5-15-15-5 15-5z" fill="#F0ABFC"/>
+      </svg>
+      <svg class="word" viewBox="0 0 206 30" aria-hidden="true">
+        <text x="79" y="22" text-anchor="end" font-family="Poppins,sans-serif" font-weight="600"
+              font-size="22" letter-spacing="5" fill="url(#gWord)">CRI</text>
+        <path d="M85 6l10 16H75z" fill="url(#gRing)"/>
+        <text x="99" y="22" text-anchor="start" font-family="Poppins,sans-serif" font-weight="600"
+              font-size="22" letter-spacing="5" fill="url(#gWord)">VERSO</text>
+      </svg>
+    </a>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#servicos">Serviços</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#processo">Como funciona</a>
+      <a href="#sobre">Sobre</a>
+      <a class="cta" href="https://wa.me/5599999999999?text=Ol%C3%A1%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento." target="_blank" rel="noopener">Pedir orçamento</a>
+    </nav>
+  </div>
+</header>
+
+<main id="topo">
+<!-- ================================= hero ================================= -->
+<section class="hero">
+  <svg class="ribbon r1" viewBox="0 0 200 200" aria-hidden="true"><ellipse cx="100" cy="100" rx="80" ry="80" fill="none" stroke="#7C3AED" stroke-width="46"/></svg>
+  <div class="wrap">
+    <div>
+      <span class="idpill"><span class="dot">→</span> Impressão 3D · Júlia Miranda</span>
+      <h1><span class="grad">Chegamos</span> para dar vida às suas ideias.</h1>
+      <p class="sub">Projetos personalizados, protótipos, decoração, presentes e muito mais através da <span class="g">impressão 3D</span>. Você manda a ideia — a gente modela, imprime, acaba e entrega.</p>
+      <div class="ctas">
+        <a class="btn btn-p" href="#catalogo">
+          Ver o catálogo
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn btn-g" href="https://wa.me/5599999999999?text=Ol%C3%A1%2C%20CRIAVERSO!%20Tenho%20uma%20ideia%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.3A10 10 0 1 0 12 2zm5.6 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1a12 12 0 0 1-6.9-6c-.5-.9-.8-1.9-.8-2.8 0-1 .5-1.6.8-1.9.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2 0 .4-.1.5l-.4.5c-.1.2-.3.3-.1.6a9 9 0 0 0 4 3.5c.3.1.5.1.6-.1l.9-1c.2-.2.3-.2.6-.1l2 1c.3.1.4.2.5.3v.6z"/></svg>
+          Falar no WhatsApp
+        </a>
+      </div>
+      <div class="stats">
+        <div><b>40+</b><span>peças no catálogo</span></div>
+        <div><b>0,1 mm</b><span>camada em resina</span></div>
+        <div><b>3–7 dias</b><span>prazo médio</span></div>
+      </div>
+    </div>
+    <div class="scene">
+      <svg viewBox="0 0 380 380" aria-label="Símbolo CRIAVERSO: a letra C com anel orbital, estrela e cubo">
+        <g class="l-all">
+          <!-- anel — metade de trás -->
+          <ellipse cx="190" cy="205" rx="170" ry="56" fill="none" stroke="url(#gRing)" stroke-width="13"
+                   transform="rotate(-18 190 205)" opacity=".85"/>
+          <!-- o C -->
+          <path d="M262 94.2A112 112 0 1 0 262 265.8L233.7 232.1A68 68 0 1 1 233.7 127.9Z" fill="url(#gRing)"/>
+          <path d="M262 94.2A112 112 0 0 0 82 152l14 8A96 96 0 0 1 252 104Z" fill="#EDE4FF" opacity=".28"/>
+          <path d="M233.7 232.1A68 68 0 0 1 126 208l-16 4a84 84 0 0 0 138 44Z" fill="#050208" opacity=".26"/>
+          <!-- cubo -->
+          <g class="l-cube">
+            <path d="M272 232l40 22v46l-40-22z" fill="url(#gB)"/>
+            <path d="M272 232l40 22 34-20-40-22z" fill="url(#gC)"/>
+            <path d="M312 254v46l34-20v-46z" fill="#050208" opacity=".38"/>
+          </g>
+          <!-- anel — metade da frente, passando por cima -->
+          <g clip-path="url(#ringFront)">
+            <ellipse cx="190" cy="205" rx="170" ry="56" fill="none" stroke="url(#gRing)" stroke-width="13"
+                     transform="rotate(-18 190 205)"/>
+          </g>
+          <clipPath id="ringFront"><rect x="0" y="212" width="380" height="180"/></clipPath>
+          <!-- estrela + orbes -->
+          <path class="l-star" d="M200 146l7 22 22 10-22 10-7 22-7-22-22-10 22-10z" fill="url(#gC)"/>
+          <circle class="l-orb1" cx="300" cy="120" r="16" fill="url(#gB)"/>
+          <circle cx="295" cy="114" r="5" fill="#EDE4FF" opacity=".55"/>
+          <circle class="l-orb2" cx="272" cy="176" r="9" fill="url(#gB)"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="mq-track" id="mq">
+    <span>Imagine</span><span class="s">✦</span><span>Crie</span><span class="s">✦</span><span>Viva</span><span class="s">✦</span>
+  </div>
+</div>
+
+<!-- =============================== serviços =============================== -->
+<section id="servicos">
+  <div class="wrap">
+    <div class="sec-head rev">
+      <span class="eyebrow">O que fazemos</span>
+      <h2 class="h2">Soluções completas em <span class="grad">impressão 3D</span></h2>
+      <p>Do projeto pontual à demanda recorrente: modelagem, impressão em filamento ou resina, acabamento e entrega.</p>
+    </div>
+    <div class="svc-grid">
+      <article class="svc rev" style="--d:.05s">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16V8l-9-5-9 5v8l9 5z"/><path d="M3.3 7.5 12 12.5l8.7-5M12 12.5V21"/></svg></div>
+        <h3>Impressão sob demanda</h3>
+        <p>Envie seu arquivo STL ou só a ideia. Imprimimos em filamento (PLA, PETG, TPU) ou resina 8K com acabamento profissional.</p>
+      </article>
+      <article class="svc rev" style="--d:.1s">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 21V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></div>
+        <h3>Brindes e presentes</h3>
+        <p>Lembrancinhas, brindes corporativos e presentes personalizados com o nome, a logo ou a foto de quem você quiser homenagear.</p>
+      </article>
+      <article class="svc rev" style="--d:.15s">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.6 5.6 6.4.8-4.7 4.3 1.2 6.3L12 17l-5.5 3 1.2-6.3L3 9.4l6.4-.8z"/></svg></div>
+        <h3>Modelagem e protótipos</h3>
+        <p>Não tem o arquivo 3D? Modelamos do zero a partir de um desenho, uma foto ou uma peça existente — e validamos com protótipo antes da versão final.</p>
+      </article>
+      <article class="svc rev" style="--d:.2s">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 1 5 5l-9 9a2.8 2.8 0 1 1-4-4z"/><path d="m9 15 6-6"/></svg></div>
+        <h3>Consultoria e oficinas</h3>
+        <p>Aulas e acompanhamento para quem está começando na impressão 3D, além de calibração e ajuste fino da sua própria impressora.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =============================== catálogo =============================== -->
+<section id="catalogo">
+  <svg class="ribbon r2" viewBox="0 0 200 200" aria-hidden="true"><ellipse cx="100" cy="100" rx="80" ry="80" fill="none" stroke="#4338CA" stroke-width="40"/></svg>
+  <div class="wrap">
+    <div class="sec-head rev">
+      <span class="eyebrow">Catálogo</span>
+      <h2 class="h2">40 peças prontas para <span class="grad">imprimir hoje</span></h2>
+      <p>Todas as peças saem em cor à sua escolha e podem ser redimensionadas. Quer algo que não está aqui? A gente modela.</p>
+    </div>
+    <div class="toolbar rev" role="group" aria-label="Filtrar catálogo por categoria">
+      <button class="filter" data-f="todos" aria-pressed="true">Todos</button>
+      <button class="filter" data-f="miniaturas" aria-pressed="false">Miniaturas</button>
+      <button class="filter" data-f="brinquedos" aria-pressed="false">Brinquedos</button>
+      <button class="filter" data-f="amenidades" aria-pressed="false">Amenidades</button>
+      <span class="count" id="count" aria-live="polite">40 peças</span>
+    </div>
+    <div class="grid" id="grid">
+<article class="p-card rev" data-cat="miniaturas" style="--d:0.00s">
+<span class="badge b-best">mais vendido</span><div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Dragão Ancestral 14 cm"><ellipse cx="100" cy="150" rx="78" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="61" ry="9" fill="#0A0514" opacity=".45"/><path d="M62 148c-6-16 2-30 16-36-14-10-18-28-8-42 8-12 24-16 36-10 6-14 22-20 35-13 14 7 18 25 9 37l-14 18c8 2 14 9 14 18 0 12-10 21-22 21H62z" fill="url(#gC)" /><path d="M62 148c-6-16 2-30 16-36 10 6 20 8 32 6 8-2 16-8 22-16 8 2 14 9 14 18 0 12-10 21-22 21H62z" fill="#050208" opacity="0.34"/><path d="M138 60c10-12 30-12 40 2 8 12 4 28-8 34-4-14-18-24-32-22 2-5 2-10 0-14z" fill="url(#gB)" /><path d="M96 60c8-6 20-4 26 4-8-2-18-2-26-4z" fill="#EDE4FF" opacity="0.35"/><circle cx="128" cy="52" r="4.6" fill="#FFF" opacity=".92"/><circle cx="129" cy="52" r="2.2" fill="#3B0764"/><path d="M64 108c-14 2-26 12-30 26 12 2 24-2 32-10z" fill="url(#gA)" /></svg></div>
+<div class="p-body">
+<span class="p-cat">Miniaturas</span>
+<h3>Dragão Ancestral 14 cm</h3>
+<p class="p-meta">Resina 8K · pintura opcional</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>189,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Dragão%20Ancestral%2014%20cm" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="miniaturas" style="--d:0.03s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Busto Cavaleiro de Ferro"><ellipse cx="100" cy="150" rx="70" ry="11" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="55" ry="8" fill="#0A0514" opacity=".45"/><path d="M70 150V96c0-18 14-32 30-32s30 14 30 32v54z" fill="url(#gB)" /><path d="M100 150V64c16 0 30 14 30 32v54z" fill="#050208" opacity="0.3"/><path d="M76 66c0-16 10-28 24-28s24 12 24 28v10c0 8-10 14-24 14s-24-6-24-14z" fill="url(#gA)" /><path d="M84 62h32v10H84z" fill="#0A0514" opacity=".82"/><path d="M88 64h9v6h-9zm15 0h9v6h-9z" fill="#C4B5FD" opacity=".95"/><path d="M100 20c4 0 7 4 7 9l-3 12h-8l-3-12c0-5 3-9 7-9z" fill="url(#gC)" /><path d="M82 44c2-10 9-17 18-18-8 5-14 11-18 18z" fill="#EDE4FF" opacity="0.4"/><path d="M56 150l6-42 12 4-6 38z" fill="url(#gA)" /></svg></div>
+<div class="p-body">
+<span class="p-cat">Miniaturas</span>
+<h3>Busto Cavaleiro de Ferro</h3>
+<p class="p-meta">Resina 8K · base inclusa</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>149,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Busto%20Cavaleiro%20de%20Ferro" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="miniaturas" style="--d:0.06s">
+<span class="badge b-best">mais vendido</span><div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Xadrez Galáctico — 32 peças"><ellipse cx="100" cy="150" rx="84" ry="13" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="66" ry="10" fill="#0A0514" opacity=".45"/><path d="M52 148c0-10 4-14 10-18-4-8-4-18 2-24-4-4-4-10 0-12h20c4 2 4 8 0 12 6 6 6 16 2 24 6 4 10 8 10 18z" fill="url(#gA)" /><path d="M74 94c6 6 6 16 2 24 6 4 10 8 10 18H74z" fill="#050208" opacity="0.3"/><path d="M112 148c0-12 6-16 10-20-6-8-8-20-2-30h-6V84h34v14h-6c6 10 4 22-2 30 4 4 10 8 10 20z" fill="url(#gB)" /><path d="M130 84h12v14h-6c6 10 4 22-2 30 4 4 10 8 10 20h-14z" fill="#050208" opacity="0.28"/><path d="M60 96c2-6 6-10 12-11-5 4-9 7-12 11z" fill="#EDE4FF" opacity="0.35"/><circle cx="153" cy="46" r="3" fill="#F0ABFC" opacity=".8"/><circle cx="44" cy="60" r="2.2" fill="#93C5FD" opacity=".7"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Miniaturas</span>
+<h3>Xadrez Galáctico — 32 peças</h3>
+<p class="p-meta">PLA+ · rei de 9 cm</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>279,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Xadrez%20Galáctico%20-%2032%20peças" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="miniaturas" style="--d:0.09s">
+<span class="badge b-new">novidade</span><div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Mecha Sentinela Articulado"><ellipse cx="100" cy="150" rx="76" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="59" ry="9" fill="#0A0514" opacity=".45"/><rect x="72" y="60" width="56" height="50" rx="10" fill="url(#gB)" /><path d="M100 60h18c6 0 10 4 10 10v30c0 6-4 10-10 10h-18z" fill="#050208" opacity="0.3"/><rect x="84" y="30" width="32" height="26" rx="9" fill="url(#gA)" /><path d="M89 40h22v8H89z" fill="#0A0514" opacity=".8"/><circle cx="95" cy="44" r="3" fill="#60A5FA"/><circle cx="105" cy="44" r="3" fill="#F0ABFC"/><rect x="46" y="64" width="20" height="44" rx="8" fill="url(#gC)" /><rect x="134" y="64" width="20" height="44" rx="8" fill="url(#gC)" /><rect x="78" y="112" width="18" height="38" rx="7" fill="url(#gA)" /><rect x="104" y="112" width="18" height="38" rx="7" fill="url(#gA)" /><path d="M78 64h14v34H78z" fill="#EDE4FF" opacity="0.16"/><path d="M100 22v10" stroke="url(#gC)" stroke-width="3" stroke-linecap="round"/><circle cx="100" cy="19" r="3.4" fill="#F0ABFC"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Miniaturas</span>
+<h3>Mecha Sentinela Articulado</h3>
+<p class="p-meta">PLA+ · 18 pontos de giro</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>165,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Mecha%20Sentinela%20Articulado" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="miniaturas" style="--d:0.12s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Cenário RPG: Torre da Guarda"><ellipse cx="100" cy="150" rx="80" ry="13" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="62" ry="10" fill="#0A0514" opacity=".45"/><path d="M64 148V64h72v84z" fill="url(#gB)" /><path d="M100 64h36v84h-36z" fill="#050208" opacity="0.32"/><path d="M58 64h84l-8-14H66z" fill="url(#gA)" /><path d="M62 50h12v-12h12v12h12v-12h12v12h12v-12h12v12h-6l-4 6H66z" fill="url(#gC)" /><path d="M84 100h32v48H84z" fill="#0A0514" opacity=".7"/><path d="M84 108c0-9 7-16 16-16s16 7 16 16v6H84z" fill="#0A0514" opacity=".7"/><path d="M72 82h14v14H72zm42 0h14v14h-14z" fill="#F0ABFC" opacity=".5"/><path d="M64 64h12v84H64z" fill="#EDE4FF" opacity="0.14"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Miniaturas</span>
+<h3>Cenário RPG: Torre da Guarda</h3>
+<p class="p-meta">PLA · escala 28 mm</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>119,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Cenário%20RPG:%20Torre%20da%20Guarda" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="miniaturas" style="--d:0.15s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Astronauta Explorador 12 cm"><ellipse cx="100" cy="150" rx="70" ry="11" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="55" ry="8" fill="#0A0514" opacity=".45"/><path d="M72 150v-46c0-16 12-28 28-28s28 12 28 28v46z" fill="url(#gA)" /><path d="M100 76c16 0 28 12 28 28v46h-28z" fill="#050208" opacity="0.28"/><circle cx="100" cy="52" r="26" fill="url(#gB)" /><path d="M84 46c0-9 8-16 18-16 7 0 13 3 16 9-10-2-24 1-34 7z" fill="#EDE4FF" opacity=".55"/><path d="M80 52c0-11 9-20 20-20s20 9 20 20-9 20-20 20-20-9-20-20z" fill="#0A0514" opacity=".78"/><path d="M88 44c3-5 9-8 15-7-6 2-11 4-15 7z" fill="#93C5FD" opacity=".8"/><rect x="52" y="92" width="20" height="34" rx="8" fill="url(#gC)" /><rect x="128" y="92" width="20" height="34" rx="8" fill="url(#gC)" /><rect x="126" y="72" width="22" height="30" rx="8" fill="url(#gB)" /><path d="M100 108h0" stroke="#F0ABFC" stroke-width="8" stroke-linecap="round"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Miniaturas</span>
+<h3>Astronauta Explorador 12 cm</h3>
+<p class="p-meta">Resina · acabamento fosco</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>99,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Astronauta%20Explorador%2012%20cm" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="miniaturas" style="--d:0.18s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Goblins Batedores — pack 5"><ellipse cx="100" cy="150" rx="84" ry="13" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="66" ry="10" fill="#0A0514" opacity=".45"/><path d="M46 150v-30c0-13 9-22 21-22s21 9 21 22v30z" fill="url(#gB)" /><circle cx="67" cy="86" r="18" fill="url(#gA)" /><path d="M40 78l14 6-12 10zM94 78L80 84l12 10z" fill="url(#gA)" /><circle cx="61" cy="84" r="3" fill="#0A0514"/><circle cx="75" cy="84" r="3" fill="#0A0514"/><path d="M108 150v-24c0-11 8-19 18-19s18 8 18 19v24z" fill="url(#gC)" /><circle cx="126" cy="96" r="15" fill="url(#gB)" /><path d="M102 90l12 5-10 8zM150 90l-12 5 10 8z" fill="url(#gB)" /><circle cx="121" cy="94" r="2.6" fill="#0A0514"/><circle cx="132" cy="94" r="2.6" fill="#0A0514"/><path d="M156 150v-18c0-9 6-15 14-15s14 6 14 15v18z" fill="url(#gA)" /><circle cx="170" cy="104" r="12" fill="url(#gC)" /><path d="M52 116c4-8 12-12 20-11-8 3-15 6-20 11z" fill="#EDE4FF" opacity="0.3"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Miniaturas</span>
+<h3>Goblins Batedores — pack 5</h3>
+<p class="p-meta">Resina · escala 32 mm</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>89,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Goblins%20Batedores%20-%20pack%205" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="miniaturas" style="--d:0.21s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Caveira Ornamental 10 cm"><ellipse cx="100" cy="150" rx="66" ry="11" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="51" ry="8" fill="#0A0514" opacity=".45"/><path d="M60 84c0-24 18-42 40-42s40 18 40 42c0 14-6 24-14 30v14c0 6-4 10-10 10H84c-6 0-10-4-10-10v-14c-8-6-14-16-14-30z" fill="url(#gA)" /><path d="M100 42c22 0 40 18 40 42 0 14-6 24-14 30v14c0 6-4 10-10 10h-16z" fill="#050208" opacity="0.26"/><ellipse cx="83" cy="86" rx="12" ry="14" fill="#0A0514" opacity=".85"/><ellipse cx="117" cy="86" rx="12" ry="14" fill="#0A0514" opacity=".85"/><circle cx="86" cy="88" r="4" fill="#C05CF7" opacity=".9"/><circle cx="114" cy="88" r="4" fill="#4E7CF6" opacity=".9"/><path d="M100 100l7 14h-14z" fill="#0A0514" opacity=".85"/><path d="M86 128h6v12h-6zm11 0h6v12h-6zm11 0h6v12h-6z" fill="#0A0514" opacity=".7"/><path d="M70 74c6-14 18-24 32-26-14 7-25 15-32 26z" fill="#EDE4FF" opacity="0.34"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Miniaturas</span>
+<h3>Caveira Ornamental 10 cm</h3>
+<p class="p-meta">Resina · olhos translúcidos</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>79,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Caveira%20Ornamental%2010%20cm" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="miniaturas" style="--d:0.24s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Foguete Retrô 16 cm"><ellipse cx="100" cy="150" rx="64" ry="10" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="50" ry="8" fill="#0A0514" opacity=".45"/><path d="M100 18c16 14 26 36 26 60v34H74V78c0-24 10-46 26-60z" fill="url(#gA)" /><path d="M100 18c16 14 26 36 26 60v34h-26z" fill="#050208" opacity="0.26"/><circle cx="100" cy="70" r="13" fill="#0A0514" opacity=".8"/><circle cx="100" cy="70" r="9" fill="url(#gB)"/><path d="M96 70c0-5 4-9 9-9-5 0-9 4-9 9z" fill="#EDE4FF" opacity="0.5"/><path d="M74 108l-16 26h16zm52 0l16 26h-16z" fill="url(#gC)" /><rect x="84" y="112" width="32" height="14" rx="4" fill="url(#gB)" /><path d="M88 126h24l-6 22c-2 6-10 6-12 0z" fill="url(#gC)" opacity=".95"/><path d="M94 148c2-8 4-14 6-18 2 4 4 10 6 18z" fill="#F0ABFC" opacity=".8"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Miniaturas</span>
+<h3>Foguete Retrô 16 cm</h3>
+<p class="p-meta">PLA+ · base magnética</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>109,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Foguete%20Retrô%2016%20cm" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="miniaturas" style="--d:0.27s">
+<span class="badge b-best">mais vendido</span><div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Esqueleto T-Rex Montável"><ellipse cx="100" cy="150" rx="86" ry="14" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="67" ry="10" fill="#0A0514" opacity=".45"/><path d="M74 104C52 106 34 118 18 136c22-8 40-12 58-12z" fill="url(#gB)" /><path d="M74 104C52 106 34 118 18 136c22-8 40-12 58-12z" fill="#050208" opacity="0.34"/><path d="M76 116h13v22l7 10H70l6-10z" fill="url(#gB)" opacity=".55"/><path d="M66 106c0-18 14-32 34-34 6-14 14-22 24-26l10 14c-8 6-12 12-12 20 0 20-14 36-34 38-12 1-22-4-22-12z" fill="url(#gA)" /><path d="M100 72c0 20-14 36-34 38 14 3 26 0 34-8 8-8 12-18 12-30z" fill="#050208" opacity="0.26"/><path d="M120 34h48c7 0 12 5 12 11v5l-58 4c-7 0-12-5-12-10s5-10 10-10z" fill="url(#gA)" /><path d="M128 54l4 7 4-7zm14 0l4 7 4-7zm14 0l4 7 4-7z" fill="#EDE4FF" opacity=".85"/><path d="M126 66l50-4 3 9-48 5c-6 1-10-2-10-6z" fill="url(#gC)" /><path d="M136 66l3-6 4 6zm14-1l3-6 4 6zm14-1l3-6 4 6z" fill="#EDE4FF" opacity=".7"/><circle cx="136" cy="44" r="5" fill="#0A0514" opacity=".85"/><circle cx="137.6" cy="42.6" r="2" fill="#EDE4FF"/><path d="M104 92l12 6-3 7-11-6z" fill="url(#gC)"/><path d="M92 104c11 0 19 8 19 18v14h-14l-9 12H70l8-16z" fill="url(#gC)" /><path d="M78 84h10m-12 8h13m-14 8h13" stroke="#0A0514" stroke-width="2.4" opacity=".33" stroke-linecap="round"/><path d="M118 38c6-8 14-14 24-16-12 6-20 11-24 16z" fill="#EDE4FF" opacity="0.3"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Miniaturas</span>
+<h3>Esqueleto T-Rex Montável</h3>
+<p class="p-meta">PLA · 22 cm montado</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>139,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Esqueleto%20T-Rex%20Montável" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="miniaturas" style="--d:0.30s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Gato Espacial Chibi"><ellipse cx="100" cy="150" rx="70" ry="11" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="55" ry="8" fill="#0A0514" opacity=".45"/><path d="M68 150v-34c0-18 14-32 32-32s32 14 32 32v34z" fill="url(#gB)" /><path d="M100 84c18 0 32 14 32 32v34h-32z" fill="#050208" opacity="0.26"/><circle cx="100" cy="60" r="30" fill="url(#gA)" /><path d="M72 42l-4-22 22 12zm56 0l4-22-22 12z" fill="url(#gA)" /><path d="M76 36l-2-12 12 7zm48 0l2-12-12 7z" fill="url(#gC)" /><ellipse cx="88" cy="58" rx="4.4" ry="6" fill="#0A0514"/><ellipse cx="112" cy="58" rx="4.4" ry="6" fill="#0A0514"/><circle cx="89.6" cy="55" r="1.6" fill="#FFF"/><circle cx="113.6" cy="55" r="1.6" fill="#FFF"/><path d="M100 68l4 4-4 3-4-3z" fill="#F0ABFC"/><path d="M74 64h14m-14 6h14m38-6h-14m14 6h-14" stroke="#EDE4FF" stroke-width="1.4" opacity=".5" stroke-linecap="round"/><path d="M132 130c14 0 22-10 20-24-6 2-8 8-8 14z" fill="url(#gC)" /></svg></div>
+<div class="p-body">
+<span class="p-cat">Miniaturas</span>
+<h3>Gato Espacial Chibi</h3>
+<p class="p-meta">Resina · pintado à mão</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>69,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Gato%20Espacial%20Chibi" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="miniaturas" style="--d:0.33s">
+<span class="badge b-new">novidade</span><div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Diorama Casa-Cogumelo"><ellipse cx="100" cy="150" rx="74" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="58" ry="9" fill="#0A0514" opacity=".45"/><path d="M100 96v52" fill="url(#gA)" /><rect x="88" y="92" width="24" height="58" rx="10" fill="url(#gA)" /><path d="M42 92c0-32 26-58 58-58s58 26 58 58c0 6-4 10-10 10H52c-6 0-10-4-10-10z" fill="url(#gC)" /><path d="M100 34c32 0 58 26 58 58 0 6-4 10-10 10h-48z" fill="#050208" opacity="0.24"/><circle cx="74" cy="62" r="9" fill="#EDE4FF" opacity=".6"/><circle cx="118" cy="54" r="7" fill="#EDE4FF" opacity=".5"/><circle cx="132" cy="78" r="6" fill="#EDE4FF" opacity=".45"/><path d="M84 116h8v8h-8z" fill="#0A0514" opacity=".6"/><path d="M96 128c0-6 4-10 8-10s8 4 8 10v22H96z" fill="#0A0514" opacity=".55"/><path d="M52 84c4-22 20-38 42-42-22 8-36 22-42 42z" fill="#EDE4FF" opacity="0.32"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Miniaturas</span>
+<h3>Diorama Casa-Cogumelo</h3>
+<p class="p-meta">Resina + PLA · 12 cm</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>129,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Diorama%20Casa-Cogumelo" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="miniaturas" style="--d:0.00s">
+<span class="badge b-pers">personalizável</span><div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Miniatura do Seu Pet"><ellipse cx="100" cy="150" rx="74" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="58" ry="9" fill="#0A0514" opacity=".45"/><path d="M64 150v-28c0-20 16-36 36-36s36 16 36 36v28z" fill="url(#gB)" /><path d="M100 86c20 0 36 16 36 36v28h-36z" fill="#050208" opacity="0.26"/><circle cx="100" cy="62" r="26" fill="url(#gA)" /><path d="M74 44c-6-8-4-18 4-20 6-2 10 4 10 12zm52 0c6-8 4-18-4-20-6-2-10 4-10 12z" fill="url(#gA)" /><ellipse cx="90" cy="60" rx="4" ry="5" fill="#0A0514"/><ellipse cx="110" cy="60" rx="4" ry="5" fill="#0A0514"/><ellipse cx="100" cy="72" rx="6" ry="4.6" fill="#0A0514" opacity=".9"/><path d="M100 76v6m0 0c-3 4-8 3-8-1m8 1c3 4 8 3 8-1" stroke="#EDE4FF" stroke-width="1.6" opacity=".6" fill="none" stroke-linecap="round"/><path d="M60 150c0-4 80-4 80 0z" fill="#0A0514" opacity=".3"/><g opacity=".9"><path d="M154 40l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#F0ABFC"/></g></svg></div>
+<div class="p-body">
+<span class="p-cat">Miniaturas</span>
+<h3>Miniatura do Seu Pet</h3>
+<p class="p-meta">Sob medida · a partir da foto</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>219,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Miniatura%20do%20Seu%20Pet" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="miniaturas" style="--d:0.03s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Dado D20 Gigante"><ellipse cx="100" cy="150" rx="72" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="56" ry="9" fill="#0A0514" opacity=".45"/><path d="M100 20l52 32v56l-52 32-52-32V52z" fill="url(#gA)" /><path d="M100 20l52 32-52 30-52-30z" fill="url(#gC)" /><path d="M152 52v56l-52 32V82z" fill="#050208" opacity="0.34"/><path d="M100 20l52 32-52 30-52-30zM100 82v58M48 52l52 30M152 52l-52 30" stroke="#0A0514" stroke-width="2" opacity=".4" fill="none"/><text x="100" y="60" text-anchor="middle" font-family="Poppins,sans-serif" font-weight="800" font-size="22" fill="#0A0514" opacity=".72">20</text><text x="126" y="112" text-anchor="middle" font-family="Poppins,sans-serif" font-weight="800" font-size="15" fill="#EDE4FF" opacity=".45">7</text><path d="M52 54l46-27-4 27z" fill="#EDE4FF" opacity="0.2"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Miniaturas</span>
+<h3>Dado D20 Gigante</h3>
+<p class="p-meta">PLA+ · 8 cm de aresta</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>59,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Dado%20D20%20Gigante" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="brinquedos" style="--d:0.06s">
+<span class="badge b-best">mais vendido</span><div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Polvo Articulado Flexível"><ellipse cx="100" cy="150" rx="80" ry="13" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="62" ry="10" fill="#0A0514" opacity=".45"/><path d="M44 104c-6 12 -6 20 0 34" stroke="url(#gC)" stroke-width="13" stroke-linecap="round" fill="none"/><path d="M62 104c-6 12 6 20 0 34" stroke="url(#gC)" stroke-width="13" stroke-linecap="round" fill="none"/><path d="M80 104c-6 12 -6 20 0 34" stroke="url(#gC)" stroke-width="13" stroke-linecap="round" fill="none"/><path d="M100 104c-6 12 6 20 0 34" stroke="url(#gC)" stroke-width="13" stroke-linecap="round" fill="none"/><path d="M120 104c-6 12 -6 20 0 34" stroke="url(#gC)" stroke-width="13" stroke-linecap="round" fill="none"/><path d="M138 104c-6 12 6 20 0 34" stroke="url(#gC)" stroke-width="13" stroke-linecap="round" fill="none"/><path d="M156 104c-6 12 -6 20 0 34" stroke="url(#gC)" stroke-width="13" stroke-linecap="round" fill="none"/><circle cx="100" cy="72" r="40" fill="url(#gA)" /><path d="M100 32c22 0 40 18 40 40s-18 40-40 40z" fill="#050208" opacity="0.22"/><ellipse cx="86" cy="68" rx="7" ry="8.6" fill="#0A0514"/><ellipse cx="114" cy="68" rx="7" ry="8.6" fill="#0A0514"/><circle cx="88" cy="64" r="2.6" fill="#FFF"/><circle cx="116" cy="64" r="2.6" fill="#FFF"/><path d="M92 88c4 5 12 5 16 0" stroke="#EDE4FF" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".7"/><path d="M70 56c6-12 18-20 30-21-14 6-24 13-30 21z" fill="#EDE4FF" opacity="0.32"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Brinquedos</span>
+<h3>Polvo Articulado Flexível</h3>
+<p class="p-meta">PLA · articula sem montar</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>45,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Polvo%20Articulado%20Flexível" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="brinquedos" style="--d:0.09s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Dino Articulado 24 cm"><ellipse cx="100" cy="150" rx="84" ry="13" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="66" ry="10" fill="#0A0514" opacity=".45"/><circle cx="50" cy="120" r="13" fill="url(#gB)"/><circle cx="72" cy="116" r="15" fill="url(#gB)"/><circle cx="96" cy="112" r="17" fill="url(#gB)"/><circle cx="120" cy="114" r="15" fill="url(#gB)"/><circle cx="142" cy="120" r="12" fill="url(#gB)"/><circle cx="160" cy="100" r="20" fill="url(#gA)" /><circle cx="166" cy="94" r="3.6" fill="#FFF"/><circle cx="167" cy="94" r="1.7" fill="#3B0764"/><path d="M86 92l10-18 10 18zm24-2l10-16 10 16zM62 100l9-14 9 14z" fill="url(#gC)" /><path d="M40 128c-8 2-14 8-14 16 8 0 14-4 18-10z" fill="url(#gB)"/><path d="M64 132h10v18H64zm50 0h10v18h-10z" fill="url(#gA)"/><path d="M92 100c4-6 10-9 16-9-7 3-12 6-16 9z" fill="#EDE4FF" opacity="0.3"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Brinquedos</span>
+<h3>Dino Articulado 24 cm</h3>
+<p class="p-meta">PLA · impresso já montado</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>55,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Dino%20Articulado%2024%20cm" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="brinquedos" style="--d:0.12s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Spinner Órbita"><ellipse cx="100" cy="150" rx="76" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="59" ry="9" fill="#0A0514" opacity=".45"/><circle cx="100" cy="84" r="52" fill="url(#gGlow)" opacity=".55"/><g transform="rotate(0 100 84)"><circle cx="100" cy="34" r="26" fill="url(#gC)"/><circle cx="100" cy="34" r="14" fill="#0A0514" opacity=".8"/><circle cx="100" cy="34" r="9" fill="url(#gB)"/></g><g transform="rotate(120 100 84)"><circle cx="100" cy="34" r="26" fill="url(#gC)"/><circle cx="100" cy="34" r="14" fill="#0A0514" opacity=".8"/><circle cx="100" cy="34" r="9" fill="url(#gB)"/></g><g transform="rotate(240 100 84)"><circle cx="100" cy="34" r="26" fill="url(#gC)"/><circle cx="100" cy="34" r="14" fill="#0A0514" opacity=".8"/><circle cx="100" cy="34" r="9" fill="url(#gB)"/></g><circle cx="100" cy="84" r="26" fill="url(#gA)" /><circle cx="100" cy="84" r="15" fill="#0A0514" opacity=".85"/><circle cx="100" cy="84" r="9" fill="url(#gC)"/><path d="M84 74c4-6 10-9 17-9-8 2-14 5-17 9z" fill="#EDE4FF" opacity="0.4"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Brinquedos</span>
+<h3>Spinner Órbita</h3>
+<p class="p-meta">PLA+ · rolamento incluso</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>39,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Spinner%20Órbita" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="brinquedos" style="--d:0.15s">
+<span class="badge b-new">novidade</span><div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Cubo Infinito"><ellipse cx="100" cy="150" rx="74" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="58" ry="9" fill="#0A0514" opacity=".45"/><rect x="44" y="42" width="52" height="52" rx="8" fill="url(#gA)" /><rect x="104" y="42" width="52" height="52" rx="8" fill="url(#gC)" /><rect x="44" y="102" width="52" height="44" rx="8" fill="url(#gB)" /><rect x="104" y="102" width="52" height="44" rx="8" fill="url(#gA)" /><path d="M70 42h26v52H70z" fill="#050208" opacity="0.18"/><path d="M130 102h26v44h-26z" fill="#050208" opacity="0.18"/><path d="M48 46h16v16H48z" fill="#EDE4FF" opacity="0.22"/><path d="M108 46h16v16h-16z" fill="#EDE4FF" opacity="0.18"/><path d="M96 68h8m-8 40h8M68 94v8m60-8v8" stroke="#0A0514" stroke-width="4" opacity=".5" stroke-linecap="round"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Brinquedos</span>
+<h3>Cubo Infinito</h3>
+<p class="p-meta">PLA · antiestresse</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>42,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Cubo%20Infinito" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="brinquedos" style="--d:0.18s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Carrinho de Fricção"><ellipse cx="100" cy="150" rx="84" ry="13" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="66" ry="10" fill="#0A0514" opacity=".45"/><path d="M34 128V104c0-8 6-14 14-14h14l16-22c4-6 10-10 18-10h28c8 0 14 4 18 10l16 22h6c8 0 14 6 14 14v24z" fill="url(#gB)" /><path d="M100 58h14c8 0 14 4 18 10l16 22h6c8 0 14 6 14 14v24h-68z" fill="#050208" opacity="0.28"/><path d="M84 68h32l10 20H74z" fill="#0A0514" opacity=".65"/><path d="M86 70h28l7 15H79z" fill="#60A5FA" opacity=".45"/><circle cx="62" cy="130" r="20" fill="#0A0514" opacity=".9"/><circle cx="62" cy="130" r="10" fill="url(#gC)"/><circle cx="140" cy="130" r="20" fill="#0A0514" opacity=".9"/><circle cx="140" cy="130" r="10" fill="url(#gC)"/><circle cx="42" cy="102" r="5" fill="#F0ABFC"/><path d="M42 100c2-6 8-10 14-10-6 3-11 6-14 10z" fill="#EDE4FF" opacity="0.3"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Brinquedos</span>
+<h3>Carrinho de Fricção</h3>
+<p class="p-meta">PLA+ · rodas livres</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>49,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Carrinho%20de%20Fricção" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="brinquedos" style="--d:0.21s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Quebra-cabeça 3D Planeta"><ellipse cx="100" cy="150" rx="72" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="56" ry="9" fill="#0A0514" opacity=".45"/><circle cx="100" cy="80" r="46" fill="url(#gA)" /><path d="M100 34c26 0 46 20 46 46s-20 46-46 46z" fill="#050208" opacity="0.2"/><path d="M100 34v92M54 80h92M70 46c14 14 46 14 60 0M70 114c14-14 46-14 60 0" stroke="#0A0514" stroke-width="2.6" opacity=".55" fill="none"/><circle cx="100" cy="60" r="5" fill="#0A0514" opacity=".5"/><circle cx="80" cy="98" r="5" fill="#0A0514" opacity=".5"/><circle cx="122" cy="96" r="5" fill="#0A0514" opacity=".5"/><ellipse cx="100" cy="86" rx="66" ry="17" fill="none" stroke="url(#gC)" stroke-width="7" transform="rotate(-16 100 86)" opacity=".95"/><path d="M72 58c8-12 20-19 34-20-16 6-27 12-34 20z" fill="#EDE4FF" opacity="0.34"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Brinquedos</span>
+<h3>Quebra-cabeça 3D Planeta</h3>
+<p class="p-meta">PLA · 24 peças</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>65,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Quebra-cabeça%203D%20Planeta" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="brinquedos" style="--d:0.24s">
+<span class="badge b-best">mais vendido</span><div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Pião de Batalha + Lançador"><ellipse cx="100" cy="150" rx="70" ry="11" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="55" ry="8" fill="#0A0514" opacity=".45"/><path d="M50 84h100l-50 62z" fill="url(#gC)" /><path d="M100 84h50l-50 62z" fill="#050208" opacity="0.3"/><ellipse cx="100" cy="84" rx="50" ry="15" fill="url(#gA)" /><ellipse cx="100" cy="84" rx="32" ry="9.6" fill="#0A0514" opacity=".55"/><rect x="90" y="48" width="20" height="30" rx="6" fill="url(#gB)" /><circle cx="100" cy="44" r="9" fill="url(#gC)"/><path d="M60 84l14 22m52-22l-14 22M100 84v40" stroke="#0A0514" stroke-width="2.4" opacity=".4"/><path d="M62 78c8-6 20-9 32-9-14 2-25 5-32 9" fill="#EDE4FF" opacity="0.4"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Brinquedos</span>
+<h3>Pião de Batalha + Lançador</h3>
+<p class="p-meta">PLA+ · kit com 2 piões</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>59,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Pião%20de%20Batalha%20+%20Lançador" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="brinquedos" style="--d:0.27s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Robô Montável — kit"><ellipse cx="100" cy="150" rx="76" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="59" ry="9" fill="#0A0514" opacity=".45"/><rect x="70" y="66" width="60" height="52" rx="12" fill="url(#gA)" /><path d="M100 66h18c6 0 12 6 12 12v28c0 6-6 12-12 12h-18z" fill="#050208" opacity="0.26"/><rect x="78" y="28" width="44" height="30" rx="10" fill="url(#gB)" /><path d="M84 36h32v14H84z" fill="#0A0514" opacity=".8"/><circle cx="93" cy="43" r="4" fill="#60A5FA"/><circle cx="107" cy="43" r="4" fill="#F0ABFC"/><path d="M100 20v8" stroke="url(#gC)" stroke-width="3"/><circle cx="100" cy="17" r="4" fill="#C05CF7"/><rect x="48" y="74" width="18" height="34" rx="7" fill="url(#gC)" /><rect x="134" y="74" width="18" height="34" rx="7" fill="url(#gC)" /><rect x="76" y="122" width="18" height="28" rx="6" fill="url(#gB)" /><rect x="106" y="122" width="18" height="28" rx="6" fill="url(#gB)" /><circle cx="88" cy="90" r="7" fill="#0A0514" opacity=".6"/><path d="M108 84h14v14h-14z" fill="#0A0514" opacity=".45"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Brinquedos</span>
+<h3>Robô Montável — kit</h3>
+<p class="p-meta">PLA · 31 peças de encaixe</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>89,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Robô%20Montável%20-%20kit" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="brinquedos" style="--d:0.30s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Blocos de Encaixe — 24 un."><ellipse cx="100" cy="150" rx="84" ry="13" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="66" ry="10" fill="#0A0514" opacity=".45"/><rect x="38" y="112" width="46" height="30" rx="6" fill="url(#gA)" /><circle cx="51" cy="109" r="6" fill="url(#gA)"/><circle cx="71" cy="109" r="6" fill="url(#gA)"/><rect x="90" y="112" width="46" height="30" rx="6" fill="url(#gC)" /><circle cx="103" cy="109" r="6" fill="url(#gC)"/><circle cx="123" cy="109" r="6" fill="url(#gC)"/><rect x="140" y="112" width="46" height="30" rx="6" fill="url(#gB)" /><circle cx="153" cy="109" r="6" fill="url(#gB)"/><circle cx="173" cy="109" r="6" fill="url(#gB)"/><rect x="62" y="74" width="46" height="30" rx="6" fill="url(#gB)" /><circle cx="75" cy="71" r="6" fill="url(#gB)"/><circle cx="95" cy="71" r="6" fill="url(#gB)"/><rect x="114" y="74" width="46" height="30" rx="6" fill="url(#gA)" /><circle cx="127" cy="71" r="6" fill="url(#gA)"/><circle cx="147" cy="71" r="6" fill="url(#gA)"/><rect x="88" y="36" width="46" height="30" rx="6" fill="url(#gC)" /><circle cx="101" cy="33" r="6" fill="url(#gC)"/><circle cx="121" cy="33" r="6" fill="url(#gC)"/><path d="M42 116h14v10H42z" fill="#EDE4FF" opacity="0.22"/><path d="M94 116h14v10H94z" fill="#EDE4FF" opacity="0.2"/><path d="M92 40h14v10H92z" fill="#EDE4FF" opacity="0.24"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Brinquedos</span>
+<h3>Blocos de Encaixe — 24 un.</h3>
+<p class="p-meta">PLA · compatível com blocos</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>75,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Blocos%20de%20Encaixe%20-%2024%20un." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="brinquedos" style="--d:0.33s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Espada e Escudo Kids"><ellipse cx="100" cy="150" rx="78" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="61" ry="9" fill="#0A0514" opacity=".45"/><path d="M118 20l14 14-56 84-16 2 2-16z" fill="url(#gA)" /><path d="M118 20l6 6-52 80-6 1z" fill="#EDE4FF" opacity="0.36"/><path d="M52 108l24 22-8 12-28-26z" fill="url(#gC)" /><rect x="48" y="126" width="26" height="10" rx="4" fill="url(#gB)" transform="rotate(42 61 131)"/><path d="M104 100c22 0 40 12 40 30 0 12-8 20-20 20H84c-12 0-20-8-20-20 0-18 18-30 40-30z" fill="url(#gB)" /><path d="M104 100c22 0 40 12 40 30 0 12-8 20-20 20h-20z" fill="#050208" opacity="0.28"/><circle cx="104" cy="126" r="10" fill="#0A0514" opacity=".55"/><circle cx="104" cy="126" r="6" fill="url(#gC)"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Brinquedos</span>
+<h3>Espada e Escudo Kids</h3>
+<p class="p-meta">PLA leve · 45 cm</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>79,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Espada%20e%20Escudo%20Kids" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="brinquedos" style="--d:0.00s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Jogo da Velha Espacial"><ellipse cx="100" cy="150" rx="78" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="61" ry="9" fill="#0A0514" opacity=".45"/><rect x="28" y="16" width="144" height="120" rx="18" fill="url(#gA)" /><rect x="34" y="22" width="132" height="108" rx="14" fill="#0A0514" opacity=".62"/><path d="M68 30v92M100 30v92M52 54h96M52 86h96" stroke="url(#gB)" stroke-width="3.4" opacity=".85" stroke-linecap="round"/><path d="M43 31l18 18M61 31l-18 18" stroke="url(#gC)" stroke-width="6" stroke-linecap="round"/><circle cx="116" cy="40" r="10" fill="none" stroke="url(#gB)" stroke-width="6"/><path d="M75 63l18 18M93 63l-18 18" stroke="url(#gC)" stroke-width="6" stroke-linecap="round"/><circle cx="52" cy="104" r="10" fill="none" stroke="url(#gB)" stroke-width="6"/><path d="M107 95l18 18M125 95l-18 18" stroke="url(#gC)" stroke-width="6" stroke-linecap="round"/><circle cx="152" cy="118" r="3" fill="#F0ABFC" opacity=".9"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Brinquedos</span>
+<h3>Jogo da Velha Espacial</h3>
+<p class="p-meta">PLA · tabuleiro + 10 peças</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>52,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Jogo%20da%20Velha%20Espacial" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="brinquedos" style="--d:0.03s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Yoyo Nebulosa"><ellipse cx="100" cy="150" rx="66" ry="11" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="51" ry="8" fill="#0A0514" opacity=".45"/><path d="M100 8v46" stroke="#EDE4FF" stroke-width="2.6" opacity=".55"/><circle cx="100" cy="92" r="48" fill="url(#gA)" /><circle cx="100" cy="92" r="48" fill="url(#gGlow)" opacity=".4"/><circle cx="100" cy="92" r="34" fill="#0A0514" opacity=".55"/><circle cx="100" cy="92" r="26" fill="url(#gC)"/><circle cx="100" cy="92" r="11" fill="#0A0514" opacity=".8"/><circle cx="100" cy="92" r="5" fill="#93C5FD"/><path d="M100 44a48 48 0 0 1 44 30" stroke="#EDE4FF" stroke-width="3" fill="none" opacity=".35"/><path d="M70 74c8-12 20-19 34-20-16 5-27 12-34 20z" fill="#EDE4FF" opacity="0.34"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Brinquedos</span>
+<h3>Yoyo Nebulosa</h3>
+<p class="p-meta">PLA+ · eixo com rolamento</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>45,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Yoyo%20Nebulosa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="brinquedos" style="--d:0.06s">
+<span class="badge b-new">novidade</span><div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Slime Fofo Articulado"><ellipse cx="100" cy="150" rx="72" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="56" ry="9" fill="#0A0514" opacity=".45"/><path d="M46 122c0-34 24-62 54-62s54 28 54 62c0 8-6 14-14 14H60c-8 0-14-6-14-14z" fill="url(#gC)" /><path d="M100 60c30 0 54 28 54 62 0 8-6 14-14 14h-40z" fill="#050208" opacity="0.2"/><ellipse cx="84" cy="102" rx="7" ry="9" fill="#0A0514"/><ellipse cx="118" cy="102" rx="7" ry="9" fill="#0A0514"/><circle cx="86" cy="98" r="2.6" fill="#FFF"/><circle cx="120" cy="98" r="2.6" fill="#FFF"/><path d="M90 118c6 7 16 7 22 0" stroke="#0A0514" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"/><path d="M62 106c4-20 16-34 32-38-16 10-27 22-32 38z" fill="#EDE4FF" opacity="0.32"/><path d="M132 52l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#F0ABFC" opacity=".9"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Brinquedos</span>
+<h3>Slime Fofo Articulado</h3>
+<p class="p-meta">TPU flexível · 9 cm</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>39,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Slime%20Fofo%20Articulado" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="amenidades" style="--d:0.09s">
+<span class="badge b-best">mais vendido</span><div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Vaso Espiral Nebulosa"><ellipse cx="100" cy="150" rx="72" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="56" ry="9" fill="#0A0514" opacity=".45"/><path d="M66 46h68l-10 24c-6 14-6 30 0 44l10 34H66l10-34c6-14 6-30 0-44z" fill="url(#gA)" /><path d="M100 46h34l-10 24c-6 14-6 30 0 44l10 34h-34z" fill="#050208" opacity="0.26"/><path d="M74 60c14 6 38 6 52 0M70 92c18 8 42 8 60 0M74 124c14 6 38 6 52 0" stroke="#0A0514" stroke-width="2.4" opacity=".38" fill="none"/><ellipse cx="100" cy="46" rx="34" ry="9" fill="url(#gC)" /><ellipse cx="100" cy="46" rx="26" ry="6.4" fill="#0A0514" opacity=".6"/><path d="M100 44c0-14 10-24 24-26-8 8-14 16-16 26z" fill="url(#gB)" opacity=".9"/><circle cx="126" cy="18" r="6" fill="#F0ABFC" opacity=".9"/><path d="M72 52c4 20 4 44 0 64l-6 20 8-30c4-18 4-38-2-54z" fill="#EDE4FF" opacity="0.18"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Amenidades</span>
+<h3>Vaso Espiral Nebulosa</h3>
+<p class="p-meta">PLA seda · 18 cm</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>89,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Vaso%20Espiral%20Nebulosa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="amenidades" style="--d:0.12s">
+<span class="badge b-best">mais vendido</span><div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Luminária Lua"><ellipse cx="100" cy="150" rx="66" ry="11" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="51" ry="8" fill="#0A0514" opacity=".45"/><circle cx="100" cy="74" r="54" fill="url(#gGlow)" opacity=".7"/><circle cx="100" cy="74" r="42" fill="url(#gA)" /><circle cx="86" cy="62" r="8" fill="#0A0514" opacity=".28"/><circle cx="112" cy="88" r="11" fill="#0A0514" opacity=".22"/><circle cx="116" cy="56" r="5" fill="#0A0514" opacity=".2"/><circle cx="82" cy="94" r="6" fill="#0A0514" opacity=".2"/><path d="M72 56c8-14 22-22 38-22-18 4-31 12-38 22z" fill="#EDE4FF" opacity="0.3"/><path d="M78 126h44l10 22H68z" fill="url(#gB)" /><path d="M100 126h22l10 22h-32z" fill="#050208" opacity="0.3"/><path d="M84 134h32" stroke="#0A0514" stroke-width="2" opacity=".4"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Amenidades</span>
+<h3>Luminária Lua</h3>
+<p class="p-meta">PLA translúcido · LED USB</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>129,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Luminária%20Lua" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="amenidades" style="--d:0.15s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Suporte de Celular Ajustável"><ellipse cx="100" cy="150" rx="76" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="59" ry="9" fill="#0A0514" opacity=".45"/><path d="M46 148l14-30h96l14 30z" fill="url(#gB)" /><path d="M100 118h56l14 30h-70z" fill="#050208" opacity="0.26"/><path d="M64 118l22-84h34l-14 84z" fill="url(#gA)" /><rect x="96" y="26" width="52" height="92" rx="8" fill="url(#gC)" transform="rotate(12 122 72)"/><rect x="101" y="32" width="42" height="80" rx="5" fill="#0A0514" opacity=".78" transform="rotate(12 122 72)"/><path d="M112 46l24-5-3 16-24 5z" fill="#60A5FA" opacity=".45"/><path d="M70 112l18-70h6l-16 70z" fill="#EDE4FF" opacity="0.2"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Amenidades</span>
+<h3>Suporte de Celular Ajustável</h3>
+<p class="p-meta">PLA+ · dois ângulos</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>39,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Suporte%20de%20Celular%20Ajustável" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="amenidades" style="--d:0.18s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Porta-Canetas Foguete"><ellipse cx="100" cy="150" rx="74" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="58" ry="9" fill="#0A0514" opacity=".45"/><path d="M64 60h72v76c0 8-6 14-14 14H78c-8 0-14-6-14-14z" fill="url(#gA)" /><path d="M100 60h36v76c0 8-6 14-14 14h-22z" fill="#050208" opacity="0.26"/><ellipse cx="100" cy="60" rx="36" ry="10" fill="url(#gC)" /><ellipse cx="100" cy="60" rx="28" ry="7.4" fill="#0A0514" opacity=".62"/><path d="M60 148l-8 2 6-24zm80 0l8 2-6-24z" fill="url(#gC)" /><path d="M84 24l6 34h-12zM104 16l7 42h-14z" fill="url(#gB)"/><path d="M84 24l3 12h-6zM104 16l3 14h-7z" fill="#F0ABFC" opacity=".9"/><path d="M72 78h56M72 102h56M72 126h56" stroke="#0A0514" stroke-width="2.2" opacity=".3"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Amenidades</span>
+<h3>Porta-Canetas Foguete</h3>
+<p class="p-meta">PLA · 12 cm</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>45,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Porta-Canetas%20Foguete" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="amenidades" style="--d:0.21s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Organizador de Bancada"><ellipse cx="100" cy="150" rx="84" ry="13" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="66" ry="10" fill="#0A0514" opacity=".45"/><rect x="26" y="86" width="148" height="58" rx="10" fill="url(#gA)" /><path d="M100 86h64c6 0 10 4 10 10v38c0 6-4 10-10 10h-64z" fill="#050208" opacity="0.24"/><path d="M74 86v58M124 86v58" stroke="#0A0514" stroke-width="3" opacity=".45"/><rect x="34" y="52" width="32" height="34" rx="6" fill="url(#gC)" /><rect x="84" y="44" width="32" height="42" rx="6" fill="url(#gB)" /><rect x="134" y="58" width="32" height="28" rx="6" fill="url(#gC)" /><path d="M38 56h10v24H38z" fill="#EDE4FF" opacity="0.2"/><path d="M92 30l4 12h-8z" fill="url(#gA)"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Amenidades</span>
+<h3>Organizador de Bancada</h3>
+<p class="p-meta">PLA+ · 3 divisórias</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>69,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Organizador%20de%20Bancada" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="amenidades" style="--d:0.24s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Porta-Copos — jogo com 4"><ellipse cx="100" cy="150" rx="84" ry="13" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="66" ry="10" fill="#0A0514" opacity=".45"/><ellipse cx="100" cy="132" rx="60" ry="17" fill="url(#gA)" /><ellipse cx="100" cy="128" rx="60" ry="17" fill="url(#gC)"/><ellipse cx="100" cy="128" rx="44" ry="12" fill="#0A0514" opacity=".4"/><ellipse cx="100" cy="106" rx="60" ry="17" fill="url(#gA)"/><ellipse cx="100" cy="106" rx="44" ry="12" fill="#0A0514" opacity=".35"/><ellipse cx="100" cy="84" rx="60" ry="17" fill="url(#gB)"/><ellipse cx="100" cy="84" rx="44" ry="12" fill="#0A0514" opacity=".3"/><ellipse cx="100" cy="62" rx="60" ry="17" fill="url(#gC)"/><ellipse cx="100" cy="62" rx="30" ry="8" fill="#0A0514" opacity=".35"/><path d="M100 54l4 8 8 4-8 4-4 8-4-8-8-4 8-4z" fill="#F0ABFC" opacity=".9"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Amenidades</span>
+<h3>Porta-Copos — jogo com 4</h3>
+<p class="p-meta">PLA + base · antiderrapante</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>49,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Porta-Copos%20-%20jogo%20com%204" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="amenidades" style="--d:0.27s">
+<span class="badge b-pers">personalizável</span><div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Chaveiro Personalizado"><ellipse cx="100" cy="150" rx="70" ry="11" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="55" ry="8" fill="#0A0514" opacity=".45"/><circle cx="100" cy="40" r="18" fill="none" stroke="url(#gB)" stroke-width="7"/><path d="M100 56v14" stroke="url(#gC)" stroke-width="6" stroke-linecap="round"/><rect x="48" y="68" width="104" height="64" rx="20" fill="url(#gA)" /><path d="M100 68h32c11 0 20 9 20 20v24c0 11-9 20-20 20h-32z" fill="#050208" opacity="0.24"/><rect x="56" y="76" width="88" height="48" rx="14" fill="#0A0514" opacity=".55"/><text x="100" y="112" text-anchor="middle" font-family="Poppins,sans-serif" font-weight="800" font-size="28" fill="url(#gC)">C</text><path d="M60 82h14v10H60z" fill="#EDE4FF" opacity="0.2"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Amenidades</span>
+<h3>Chaveiro Personalizado</h3>
+<p class="p-meta">PLA · nome ou logo</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>19,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Chaveiro%20Personalizado" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="amenidades" style="--d:0.30s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Suporte para Headset"><ellipse cx="100" cy="150" rx="74" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="58" ry="9" fill="#0A0514" opacity=".45"/><path d="M56 148V64c0-6 4-10 10-10h6c6 0 10 4 10 10v84z" fill="url(#gA)" /><path d="M72 54h0c6 0 10 4 10 10v84H72z" fill="#050208" opacity="0.24"/><path d="M60 62c0-24 20-42 44-42s44 18 44 42v18h-16V62c0-16-12-28-28-28S76 46 76 62z" fill="url(#gB)" /><rect x="130" y="72" width="22" height="34" rx="10" fill="url(#gC)" /><rect x="134" y="76" width="14" height="26" rx="7" fill="#0A0514" opacity=".45"/><path d="M50 148h44v-8H50z" fill="url(#gC)"/><path d="M74 56c6-16 20-26 38-26-18 4-31 13-38 26z" fill="#EDE4FF" opacity="0.32"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Amenidades</span>
+<h3>Suporte para Headset</h3>
+<p class="p-meta">PLA+ · fixa na mesa</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>59,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Suporte%20para%20Headset" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="amenidades" style="--d:0.33s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Gancho de Parede — kit 3"><ellipse cx="100" cy="150" rx="72" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="56" ry="9" fill="#0A0514" opacity=".45"/><rect x="36" y="30" width="44" height="116" rx="12" fill="url(#gA)" /><path d="M58 30h10c7 0 12 5 12 12v92c0 7-5 12-12 12h-10z" fill="#050208" opacity="0.24"/><circle cx="58" cy="48" r="5" fill="#0A0514" opacity=".55"/><circle cx="58" cy="128" r="5" fill="#0A0514" opacity=".55"/><path d="M80 62h44c18 0 30 14 30 30s-12 26-28 26c-12 0-20-8-20-18 0-9 6-15 14-15" stroke="url(#gC)" stroke-width="15" fill="none" stroke-linecap="round"/><path d="M84 56h30c14 0 24 8 28 20-6-10-16-16-28-16H84z" fill="#EDE4FF" opacity="0.24"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Amenidades</span>
+<h3>Gancho de Parede — kit 3</h3>
+<p class="p-meta">PLA+ · adesivo 3M</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>35,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Gancho%20de%20Parede%20-%20kit%203" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="amenidades" style="--d:0.00s">
+<span class="badge b-pers">personalizável</span><div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Litofania com Sua Foto"><ellipse cx="100" cy="150" rx="76" ry="12" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="59" ry="9" fill="#0A0514" opacity=".45"/><rect x="46" y="18" width="108" height="104" rx="8" fill="url(#gA)"/><rect x="54" y="26" width="92" height="88" rx="5" fill="#0A0514" opacity=".55"/><rect x="54" y="26" width="92" height="88" rx="5" fill="url(#gGlow)" opacity=".55"/><path d="M54 96l26-30 20 20 16-14 30 26v10a5 5 0 0 1-5 5H59a5 5 0 0 1-5-5z" fill="#0A0514" opacity=".55"/><circle cx="122" cy="50" r="10" fill="#F0ABFC" opacity=".65"/><path d="M54 40h92M54 56h92M54 72h92M54 88h92" stroke="#050208" stroke-width="1.4" opacity=".22"/><path d="M70 122h60l10 26H60z" fill="url(#gB)" /><path d="M100 122h30l10 26h-40z" fill="#050208" opacity="0.3"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Amenidades</span>
+<h3>Litofania com Sua Foto</h3>
+<p class="p-meta">PLA branco · luminária inclusa</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>99,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Litofania%20com%20Sua%20Foto" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="amenidades" style="--d:0.03s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Marcador de Livro Estrela"><ellipse cx="100" cy="150" rx="66" ry="11" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="51" ry="8" fill="#0A0514" opacity=".45"/><path d="M70 16h60v118l-30-22-30 22z" fill="url(#gA)" /><path d="M100 16h30v118l-30-22z" fill="#050208" opacity="0.26"/><path d="M78 30h44M78 46h44M78 62h30" stroke="#0A0514" stroke-width="3" opacity=".35" stroke-linecap="round"/><path d="M100 78l7 15 16 2-12 12 3 16-14-8-14 8 3-16-12-12 16-2z" fill="url(#gC)"/><path d="M64 138l36 26 36-26" fill="none" stroke="url(#gB)" stroke-width="4" opacity=".5"/><path d="M74 20h8v110l-8 6z" fill="#EDE4FF" opacity="0.16"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Amenidades</span>
+<h3>Marcador de Livro Estrela</h3>
+<p class="p-meta">PLA fino · 2 unidades</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>25,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Marcador%20de%20Livro%20Estrela" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="amenidades" style="--d:0.06s">
+<div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Suporte para Controle"><ellipse cx="100" cy="150" rx="80" ry="13" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="62" ry="10" fill="#0A0514" opacity=".45"/><path d="M40 148V96c0-8 6-14 14-14h92c8 0 14 6 14 14v52z" fill="url(#gB)" /><path d="M100 82h46c8 0 14 6 14 14v52h-60z" fill="#050208" opacity="0.26"/><path d="M56 78c0-16 12-28 28-28h32c16 0 28 12 28 28 0 10-8 18-18 18H74c-10 0-18-8-18-18z" fill="url(#gA)" /><path d="M74 66h6v-6h6v6h6v6h-6v6h-6v-6h-6z" fill="#0A0514" opacity=".7"/><circle cx="122" cy="62" r="4.4" fill="#F0ABFC"/><circle cx="134" cy="72" r="4.4" fill="#60A5FA"/><circle cx="122" cy="82" r="4.4" fill="#C4B5FD"/><path d="M52 122h96" stroke="#0A0514" stroke-width="2.6" opacity=".35"/><path d="M62 70c4-10 14-16 26-16-12 4-21 9-26 16z" fill="#EDE4FF" opacity="0.3"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Amenidades</span>
+<h3>Suporte para Controle</h3>
+<p class="p-meta">PLA+ · dupla base</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>45,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Suporte%20para%20Controle" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+<article class="p-card rev" data-cat="amenidades" style="--d:0.09s">
+<span class="badge b-pers">personalizável</span><div class="p-art"><svg viewBox="0 0 200 170" role="img" aria-label="Ilustração do produto Placa de Mesa com Seu Nome"><ellipse cx="100" cy="150" rx="84" ry="13" fill="url(#gPlate)" opacity="0.5"/><ellipse cx="100" cy="147" rx="66" ry="10" fill="#0A0514" opacity=".45"/><path d="M34 148l24-56h84l24 56z" fill="url(#gB)" /><path d="M100 92h42l24 56h-66z" fill="#050208" opacity="0.28"/><path d="M56 92l14-52h60l14 52z" fill="url(#gA)" /><path d="M66 84l12-38h44l12 38z" fill="#0A0514" opacity=".55"/><text x="100" y="76" text-anchor="middle" font-family="Poppins,sans-serif" font-weight="700" font-size="17" fill="url(#gC)">JÚLIA</text><path d="M76 26l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#F0ABFC" opacity=".85"/><path d="M60 88l12-46h6l-12 46z" fill="#EDE4FF" opacity="0.18"/></svg></div>
+<div class="p-body">
+<span class="p-cat">Amenidades</span>
+<h3>Placa de Mesa com Seu Nome</h3>
+<p class="p-meta">PLA · até 12 caracteres</p>
+<div class="p-foot"><span class="p-price"><small>R$</small>55,00</span>
+<a class="p-buy" href="https://wa.me/5599999999999?text=Ola%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento%20do%20produto%3A%20Placa%20de%20Mesa%20com%20Seu%20Nome" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L21.5 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="t">Orçar</span></a></div>
+</div></article>
+    </div>
+    <p class="cat-note rev">Preços de referência para 1 unidade em cor única. <b>Kits, cores especiais e pintura à mão</b> são orçados no WhatsApp.</p>
+  </div>
+</section>
+
+<!-- =============================== processo =============================== -->
+<section id="processo">
+  <div class="wrap">
+    <div class="sec-head rev">
+      <span class="eyebrow">Como funciona</span>
+      <h2 class="h2">Da ideia à peça na sua mão</h2>
+      <p>Quatro etapas, sem mistério — e você acompanha cada uma delas.</p>
+    </div>
+    <div class="steps">
+      <article class="step rev" style="--d:.05s"><div class="num"><i>01</i></div><h3>Conte a ideia</h3><p>Mande uma foto, um desenho ou o arquivo 3D no WhatsApp. Respondemos com prazo e valor.</p></article>
+      <article class="step rev" style="--d:.1s"><div class="num"><i>02</i></div><h3>Modelagem</h3><p>Ajustamos ou criamos o modelo e enviamos uma prévia 3D para você aprovar antes de imprimir.</p></article>
+      <article class="step rev" style="--d:.15s"><div class="num"><i>03</i></div><h3>Impressão</h3><p>Filamento para peças resistentes, resina para detalhes finos. Você escolhe a cor e o tamanho.</p></article>
+      <article class="step rev" style="--d:.2s"><div class="num"><i>04</i></div><h3>Acabamento e entrega</h3><p>Limpeza, lixamento e pintura opcional. Retirada combinada ou envio para todo o Brasil.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ================================ sobre ================================= -->
+<section id="sobre" class="about">
+  <div class="wrap">
+    <div class="rev">
+      <span class="eyebrow">Quem faz</span>
+      <svg class="word-big" viewBox="0 0 206 30" aria-label="CRIAVERSO" style="margin-top:18px">
+        <text x="79" y="22" text-anchor="end" font-family="Poppins,sans-serif" font-weight="600" font-size="22" letter-spacing="5" fill="url(#gWord)">CRI</text>
+        <path d="M85 6l10 16H75z" fill="url(#gRing)"/>
+        <text x="99" y="22" text-anchor="start" font-family="Poppins,sans-serif" font-weight="600" font-size="22" letter-spacing="5" fill="url(#gWord)">VERSO</text>
+      </svg>
+      <div class="tagline">Imagine · Crie · Viva</div>
+      <p>O CRIAVERSO nasceu de uma vontade simples: transformar em objeto aquilo que hoje só existe na imaginação. Aqui a impressora 3D não é o produto — ela é a ponte entre a sua ideia e a coisa que você vai segurar na mão.</p>
+      <p><strong>Miniaturas para colecionar, brinquedos para brincar de verdade e peças que resolvem o dia a dia.</strong> Cada uma é impressa por encomenda, na cor que você escolher, com acabamento feito peça por peça.</p>
+      <div class="chips"><span>Filamento PLA · PETG · TPU</span><span>Resina 8K</span><span>Modelagem própria</span><span>Pintura à mão</span><span>Envio para todo o Brasil</span></div>
+    </div>
+    <figure class="quote rev" style="--d:.12s">
+      <blockquote>“Toda peça começa com alguém dizendo <span class="grad">‘será que dá pra fazer?’</span> — e quase sempre dá.”</blockquote>
+      <figcaption>
+        <span class="avatar">JM</span>
+        <div><b>Júlia Miranda</b><span>fundadora · modelagem e impressão</span></div>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============================== cta final =============================== -->
+<section id="contato">
+  <div class="wrap">
+    <div class="banner rev">
+      <svg class="spark" style="top:12%;left:9%;width:26px" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#F0ABFC" opacity=".75"/></svg>
+      <svg class="spark" style="bottom:16%;right:11%;width:18px" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#93C5FD" opacity=".7"/></svg>
+      <h2>Tem uma ideia na cabeça?</h2>
+      <p>Manda pra gente. Em poucas horas você recebe o orçamento, o prazo e uma prévia de como sua peça vai ficar.</p>
+      <div class="ctas">
+        <a class="btn btn-p" href="https://wa.me/5599999999999?text=Ol%C3%A1%2C%20CRIAVERSO!%20Tenho%20uma%20ideia%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.3A10 10 0 1 0 12 2zm5.6 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1a12 12 0 0 1-6.9-6c-.5-.9-.8-1.9-.8-2.8 0-1 .5-1.6.8-1.9.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2 0 .4-.1.5l-.4.5c-.1.2-.3.3-.1.6a9 9 0 0 0 4 3.5c.3.1.5.1.6-.1l.9-1c.2-.2.3-.2.6-.1l2 1c.3.1.4.2.5.3v.6z"/></svg>
+          Pedir meu orçamento
+        </a>
+        <a class="btn btn-g" href="#catalogo">Voltar ao catálogo</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ================================ footer ================================ -->
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-brand">
+        <svg class="word" viewBox="0 0 206 30" aria-label="CRIAVERSO">
+          <text x="79" y="22" text-anchor="end" font-family="Poppins,sans-serif" font-weight="600" font-size="22" letter-spacing="5" fill="url(#gWord)">CRI</text>
+          <path d="M85 6l10 16H75z" fill="url(#gRing)"/>
+          <text x="99" y="22" text-anchor="start" font-family="Poppins,sans-serif" font-weight="600" font-size="22" letter-spacing="5" fill="url(#gWord)">VERSO</text>
+        </svg>
+        <p>Impressão 3D por Júlia Miranda. Miniaturas, brinquedos e amenidades feitos sob encomenda — imagine, crie, viva.</p>
+      </div>
+      <div>
+        <h4>Catálogo</h4>
+        <ul>
+          <li><a href="#catalogo" data-jump="miniaturas">Miniaturas</a></li>
+          <li><a href="#catalogo" data-jump="brinquedos">Brinquedos</a></li>
+          <li><a href="#catalogo" data-jump="amenidades">Amenidades</a></li>
+          <li><a href="#catalogo" data-jump="todos">Ver tudo</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Loja</h4>
+        <ul>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#processo">Como funciona</a></li>
+          <li><a href="#sobre">Sobre nós</a></li>
+          <li><a href="#contato">Orçamento</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul class="f-contact">
+          <li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.3A10 10 0 1 0 12 2z"/></svg> WhatsApp (00) 00000-0000</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg> contato@criaverso.com.br</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg> @criaverso3d</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg> Envio para todo o Brasil</li>
+        </ul>
+      </div>
+    </div>
+    <div class="f-bottom">
+      <span>© 2026 CRIAVERSO · Impressão 3D por Júlia Miranda</span>
+      <span class="love">Imagine · Crie · <b>Viva</b></span>
+    </div>
+  </div>
+</footer>
+
+<a class="zap-fab" href="https://wa.me/5599999999999?text=Ol%C3%A1%2C%20CRIAVERSO!%20Quero%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.3A10 10 0 1 0 12 2zm5.6 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1a12 12 0 0 1-6.9-6c-.5-.9-.8-1.9-.8-2.8 0-1 .5-1.6.8-1.9.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2 0 .4-.1.5l-.4.5c-.1.2-.3.3-.1.6a9 9 0 0 0 4 3.5c.3.1.5.1.6-.1l.9-1c.2-.2.3-.2.6-.1l2 1c.3.1.4.2.5.3v.6z"/></svg>
+</a>
+
+<script src="app.js"></script>
+</body>
+</html>
