@@ -12,10 +12,11 @@ python3 -m http.server 8000 --directory frontend/loja
 
 | Arquivo      | O que tem                                                                 |
 |--------------|---------------------------------------------------------------------------|
-| `index.html` | Toda a página: header, hero, serviços, catálogo (40 produtos), como funciona, sobre, CTA e rodapé |
+| `index.html` | Toda a página: header, hero, serviços, catálogo (40 produtos), como funciona, sobre, a artista, CTA e rodapé |
 | `styles.css` | Design system (tokens de cor, tipografia, componentes, responsivo)         |
 | `app.js`     | Filtros do catálogo, menu mobile, céu estrelado e reveal ao rolar          |
 | `fonts.css`  | Poppins e Manrope embutidas em base64 — a página funciona offline          |
+| `img/`       | Arte da marca e avatar da Júlia, recortados da imagem original             |
 
 ## Antes de publicar
 
@@ -32,6 +33,23 @@ python3 -m http.server 8000 --directory frontend/loja
 3. **Fotos reais.** Cada produto usa uma ilustração vetorial inline (`<svg>` dentro de
    `.p-art`). Para usar foto da peça impressa, troque o `<svg>…</svg>` por
    `<img src="fotos/nome.jpg" alt="…">` — o CSS de `.p-art` já cuida do enquadramento.
+
+4. **A biografia da Júlia é um rascunho.** O texto da seção `#artista` ("Comecei
+   imprimindo miniaturas…") foi escrito como ponto de partida, não a partir da
+   história real dela. Vale substituir pelas palavras da própria Júlia — é o trecho
+   da página onde a voz da pessoa faz mais diferença.
+
+## Seção "A artista"
+
+`#artista` fica logo depois do `#sobre` e usa duas imagens em `img/`, ambas recortadas
+da arte original da marca:
+
+- `julia-miranda.jpg` (820 px) — a arte completa, dentro de uma moldura arredondada;
+- `julia-avatar.jpg` (200 px) — recorte do rosto, usado no card de citação e na
+  assinatura ao pé da seção.
+
+Para trocar por uma foto real da Júlia, basta substituir os dois arquivos mantendo os
+nomes (a arte funciona melhor em retrato, perto de 4:5; o avatar precisa ser quadrado).
 
 ## Catálogo
 
