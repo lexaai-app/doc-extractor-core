@@ -20,15 +20,18 @@ python3 -m http.server 8000 --directory frontend/loja
 
 ## Antes de publicar
 
-1. **Telefone do WhatsApp.** Todos os links usam o número de exemplo `5599999999999`.
-   Troque de uma vez só (formato: 55 + DDD + número):
+1. **Contato.** Todo o site fala por e-mail (`criaverso.original@gmail.com`): os 40 botões
+   "Orçar", as chamadas do topo e do rodapé, o botão flutuante e a seção da artista.
+   Cada link já abre o e-mail com assunto preenchido — nos produtos, com o nome da peça.
+   Para trocar o endereço:
 
    ```bash
-   sed -i 's/5599999999999/5598999998888/g' frontend/loja/index.html
+   sed -i 's/criaverso\.original@gmail\.com/novo@endereco.com/g' frontend/loja/index.html
    ```
 
-2. **Contatos do rodapé.** `(00) 00000-0000`, `contato@criaverso.com.br` e `@criaverso3d`
-   são exemplos — ajuste no bloco `<ul class="f-contact">` do `index.html`.
+2. **Não há telefone nem redes sociais na página** — foi uma decisão, não um esquecimento.
+   Quando tiver WhatsApp e Instagram, os links entram no bloco `<ul class="f-contact">`
+   do rodapé (e, se quiser, o botão flutuante `.fab` vira um link do WhatsApp).
 
 3. **Fotos reais.** Cada produto usa uma ilustração vetorial inline (`<svg>` dentro de
    `.p-art`). Para usar foto da peça impressa, troque o `<svg>…</svg>` por
@@ -59,7 +62,7 @@ Para incluir ou editar uma peça, copie um card e ajuste:
 - `data-cat` — `miniaturas`, `brinquedos` ou `amenidades` (é o que os filtros usam);
 - `<h3>`, `.p-meta` e `.p-price` — nome, material/medida e preço;
 - `.badge` — opcional: `b-best` (mais vendido), `b-new` (novidade), `b-pers` (personalizável);
-- o `href` do botão **Orçar**, que já leva o nome do produto na mensagem do WhatsApp.
+- o `href` do botão **Orçar**, que já leva o nome do produto no assunto do e-mail.
 
 O contador ao lado dos filtros se atualiza sozinho.
 
