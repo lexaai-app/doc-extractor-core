@@ -7,7 +7,7 @@ logo oficial (branca sobre azul #26284E), no estilo "Magistratura Luminosa".
 """
 
 import os
-from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance, ImageChops
+from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance, ImageChops, ImageOps
 
 OUT_DIR = os.path.dirname(os.path.abspath(__file__))
 PHOTO_SRC = os.path.join(OUT_DIR, "insumos", "foto-painel.jpg")
@@ -15,14 +15,30 @@ LOGO_SRC = os.path.join(OUT_DIR, "insumos", "logo-anamages.jpg")
 FONT_DIR = "/root/.claude/skills/synced/canvas-design/canvas-fonts"
 
 # ---------------------------------------------------------------- paleta
-NAVY      = (38, 40, 78)      # fundo exato da logo
+LOGO_BG   = (38, 40, 78)      # fundo exato da logo (referência p/ recorte)
+WHITE     = (255, 255, 255)
+MONO      = False
+
 NAVY_TOP  = (47, 50, 95)
 NAVY_BOT  = (27, 29, 58)
 DEEP      = (23, 25, 50)
 GOLD      = (203, 166, 94)
 GOLD_LT   = (232, 207, 148)
 PERI      = (169, 177, 218)   # azul-lavanda (meia-voz)
-WHITE     = (255, 255, 255)
+GLOW      = (72, 78, 140)
+
+
+def set_palette(mode="navy"):
+    """'navy' (azul e ouro) ou 'mono' (preto e branco, prata)."""
+    global NAVY_TOP, NAVY_BOT, DEEP, GOLD, GOLD_LT, PERI, GLOW, MONO
+    if mode == "mono":
+        NAVY_TOP, NAVY_BOT, DEEP = (30, 30, 34), (9, 9, 11), (15, 15, 18)
+        GOLD, GOLD_LT = (202, 202, 208), (240, 240, 244)
+        PERI, GLOW, MONO = (172, 174, 181), (94, 94, 106), True
+    else:
+        NAVY_TOP, NAVY_BOT, DEEP = (47, 50, 95), (27, 29, 58), (23, 25, 50)
+        GOLD, GOLD_LT = (203, 166, 94), (232, 207, 148)
+        PERI, GLOW, MONO = (169, 177, 218), (72, 78, 140), False
 
 F_SANS    = os.path.join(FONT_DIR, "Outfit-Regular.ttf")
 F_SANS_B  = os.path.join(FONT_DIR, "Outfit-Bold.ttf")
@@ -127,8 +143,9 @@ def diamond(draw, cx, cy, r, fill):
     draw.polygon([(cx, cy - r), (cx + r, cy), (cx, cy + r), (cx - r, cy)], fill=fill)
 
 
-def ornament(draw, cx, cy, half_span, color=GOLD, dcolor=None):
+def ornament(draw, cx, cy, half_span, color=None, dcolor=None):
     """regra — losango — regra (o lacre entre laudas)."""
+    color = color or GOLD
     dcolor = dcolor or GOLD_LT
     gap = 26
     draw.line([(cx - half_span, cy), (cx - gap, cy)], fill=color, width=2)
@@ -140,7 +157,7 @@ def ornament(draw, cx, cy, half_span, color=GOLD, dcolor=None):
 def logo_transparent():
     """Logo branca com alfa (remove o fundo azul), aparada."""
     im = Image.open(LOGO_SRC).convert("RGB")
-    bg = Image.new("RGB", im.size, NAVY)
+    bg = Image.new("RGB", im.size, LOGO_BG)
     diff = ImageChops.difference(im, bg).convert("L")
     alpha = diff.point(lambda v: 255 if v > 78 else int(v * 3.2) if v > 14 else 0)
     out = im.copy()
@@ -158,10 +175,16 @@ def speaker_photo(target_w, target_h):
     crop = ImageEnhance.Contrast(crop).enhance(1.10)
     crop = ImageEnhance.Color(crop).enhance(0.90)
     crop = crop.filter(ImageFilter.UnsharpMask(radius=2.2, percent=120, threshold=2))
-    # sombras levemente esfriadas para pertencer ao campo azul
-    cool = Image.new("RGB", crop.size, (30, 34, 70))
-    crop = Image.blend(crop, ImageChops.multiply(crop, Image.new("RGB", crop.size, (238, 240, 252))), 0.5)
-    crop = Image.blend(crop, cool, 0.06)
+    if MONO:
+        # retrato clássico em preto e branco
+        crop = ImageOps.grayscale(crop).convert("RGB")
+        crop = ImageEnhance.Contrast(crop).enhance(1.12)
+        crop = ImageEnhance.Brightness(crop).enhance(1.02)
+    else:
+        # sombras levemente esfriadas para pertencer ao campo azul
+        cool = Image.new("RGB", crop.size, (30, 34, 70))
+        crop = Image.blend(crop, ImageChops.multiply(crop, Image.new("RGB", crop.size, (238, 240, 252))), 0.5)
+        crop = Image.blend(crop, cool, 0.06)
     return crop
 
 
@@ -208,13 +231,13 @@ def photo_card(canvas, box, radius=26, bottom_fade=110, top_fade=0):
     d = ImageDraw.Draw(canvas)
     d.rounded_rectangle([x, y, x + w - 1, y + h - 1], radius, outline=GOLD, width=3)
     d.rounded_rectangle([x + 8, y + 8, x + w - 9, y + h - 9], radius - 7,
-                        outline=(232, 207, 148, 90), width=1)
+                        outline=GOLD_LT + (90,), width=1)
     return canvas
 
 
 def base_canvas(W, H, glow_center, glow_radius):
     bg = v_gradient((W, H), NAVY_TOP, NAVY_BOT).convert("RGBA")
-    bg = radial_glow(bg, glow_center, glow_radius, (72, 78, 140), 68)
+    bg = radial_glow(bg, glow_center, glow_radius, GLOW, 68)
     return bg
 
 
@@ -241,6 +264,7 @@ LOCAL    = "WINDSOR BRASÍLIA HOTEL — BRASÍLIA/DF"
 
 # ---------------------------------------------------------------- STORIES
 def make_story():
+    set_palette("navy")
     W, H = 1080, 1920
     img = base_canvas(W, H, (W // 2, 470), 620)
     d = ImageDraw.Draw(img)
@@ -309,6 +333,7 @@ def make_story():
 
 # ---------------------------------------------------------------- POST 1:1
 def make_post():
+    set_palette("mono")
     W, H = 1080, 1080
     img = base_canvas(W, H, (330, 420), 520)
     d = ImageDraw.Draw(img)
