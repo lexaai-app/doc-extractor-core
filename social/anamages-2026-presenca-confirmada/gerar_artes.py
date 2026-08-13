@@ -234,7 +234,7 @@ H1A, H1B = "PRESENÇA", "CONFIRMADA"
 TEMA_1   = "Inteligência Artificial (IA):"
 TEMA_2   = "presente e futuro da Magistratura"
 ROLE     = "PALESTRANTE"
-NAME     = "Dr. Rodrigo Otávio Terças Santos"
+NAME     = "Rodrigo Terças"
 DATA     = "14 DE AGOSTO · SEXTA-FEIRA · 11H"
 LOCAL    = "WINDSOR BRASÍLIA HOTEL — BRASÍLIA/DF"
 
@@ -273,7 +273,7 @@ def make_story():
     d = ImageDraw.Draw(img)
 
     # placa de nome sobreposta à base do retrato
-    plate_w, plate_h = 830, 158
+    plate_w, plate_h = 660, 158
     plx, ply = W//2 - plate_w//2, py + ph - 74
     pl = Image.new("RGBA", img.size, (0, 0, 0, 0))
     pld = ImageDraw.Draw(pl)
@@ -283,7 +283,7 @@ def make_story():
     d = ImageDraw.Draw(img)
     f_role = font(F_SANS_B, 24)
     draw_tracked(d, (W//2, ply + 26), ROLE, f_role, GOLD, 24 * 0.42)
-    f_name, tr_n = fit_font(d, NAME, F_SANS_B, plate_w - 90, 42, 0.02)
+    f_name, tr_n = fit_font(d, NAME, F_SANS_B, plate_w - 90, 46, 0.02)
     draw_tracked(d, (W//2, ply + 74), NAME, f_name, WHITE, tr_n)
 
     y = ply + plate_h + 46
@@ -346,14 +346,13 @@ def make_post():
     for i, line in enumerate(["“" + TEMA_1] + wrap_text(d, TEMA_2 + "”", f_tema, lw_col)):
         d.text((lx, y), line, font=f_tema, fill=WHITE)
         y += 47
-    y += 40
+    y += 56
 
     f_role = font(F_SANS_B, 22)
     draw_tracked(d, (lx, y), ROLE, f_role, GOLD, 22 * 0.40, anchor="left")
-    y += 44
-    f_name = font(F_SANS_B, 42)
-    d.text((lx, y), "Dr. Rodrigo Otávio", font=f_name, fill=WHITE)
-    d.text((lx, y + 52), "Terças Santos", font=f_name, fill=WHITE)
+    y += 46
+    f_name = font(F_SANS_B, 48)
+    d.text((lx, y), NAME, font=f_name, fill=WHITE)
 
     # dispositivo (rodapé)
     d.line([(84, 902), (W - 84, 902)], fill=GOLD + (120,), width=2)
